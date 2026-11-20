@@ -1,0 +1,2120 @@
+{
+  "id": "gamestop-short-squeeze",
+  "title": "The GameStop Short Squeeze — How a $20 Stock Hit $483",
+  "summary": "The 2021 GameStop rally, the lending chain that made the stock vulnerable to a squeeze, and the clearing deposits behind the buy restrictions. Historical prices use the quotes at the time.",
+  "sources": [
+    "https://www.sec.gov/files/staff-report-equity-options-market-struction-conditions-early-2021.pdf",
+    "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-51",
+    "https://www.sec.gov/Archives/edgar/data/1326380/000132638021000032/gme-20210130.htm",
+    "https://www.sec.gov/Archives/edgar/data/1326380/000132638021000030/a991q4fy20earningsrelease.htm",
+    "https://financialservices.house.gov/calendar/eventsingle.aspx?EventID=407880",
+    "https://www.sec.gov/Archives/edgar/data/1783879/000178387922000044/hood-20211231.htm",
+    "https://www.sec.gov/Archives/edgar/data/1326380/000132638022000100/a991-stocksplitannouncement.htm"
+  ],
+  "aspect": "16:9",
+  "duration": 693,
+  "voice": "piper",
+  "createdAt": "2026-11-11T18:23:47.360Z",
+  "scenes": [
+    {
+      "kind": "film",
+      "shot": "gamestop/opening",
+      "label": "MM_001",
+      "headline": "The $483 mystery",
+      "seconds": 10,
+      "narration": "January 28th, 2021. A stock belonging to a struggling video game retailer briefly touches four hundred and eighty-three dollars.",
+      "start": 0
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/milestones",
+      "label": "MM_002",
+      "headline": "From $20 to $483",
+      "seconds": 5,
+      "narration": "Just weeks earlier, it had been trading around twenty.",
+      "start": 10
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/two-sides",
+      "label": "MM_003",
+      "headline": "Two sides of the same trade",
+      "seconds": 10,
+      "narration": "People on the internet are celebrating. Hedge funds are taking enormous losses. And everyone is watching the same green line climb higher and higher.",
+      "start": 15
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/restriction",
+      "label": "MM_004",
+      "headline": "The buy button disappears",
+      "seconds": 14,
+      "narration": "Then, something extraordinary happens. On Robinhood, one of the apps used by the very traders driving the frenzy, customers can no longer buy GameStop shares. They can sell. But they cannot buy.",
+      "start": 25
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/rewind",
+      "label": "MM_005",
+      "headline": "What really happened?",
+      "seconds": 24,
+      "narration": "Imagine watching a financial battle unfold, only to discover that your trading app has changed what you're allowed to do. Was this ordinary people defeating Wall Street? Was the system protecting itself? Or was the real story more complicated than either side wanted to admit? To understand that day, we have to go back to a company that much of Wall Street believed was running out of time.",
+      "start": 39
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/store",
+      "label": "MM_006",
+      "headline": "The GameStop store",
+      "seconds": 7,
+      "narration": "GameStop was once a familiar stop for gamers in American shopping malls.",
+      "start": 63
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/shop",
+      "label": "MM_007",
+      "headline": "The physical game era",
+      "seconds": 9,
+      "narration": "You walked in, browsed the shelves, traded in used games, and left carrying a physical copy of something you couldn't wait to play.",
+      "start": 70
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/download",
+      "label": "MM_008",
+      "headline": "The industry goes digital",
+      "seconds": 10,
+      "narration": "But the industry was changing. More customers were downloading games instead of buying discs. Online shopping kept growing.",
+      "start": 79
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/shutters",
+      "label": "MM_009",
+      "headline": "A business under pressure",
+      "seconds": 13,
+      "narration": "And during the pandemic, physical stores faced another enormous challenge. To many professional investors, the business looked like a company from the past trying to survive in the future.",
+      "start": 89
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/theses",
+      "label": "MM_010",
+      "headline": "Two investment theses",
+      "seconds": 21,
+      "narration": "Some believed GameStop could turn things around. Others thought the stock price had much further to fall. And some of those pessimists weren't simply avoiding the stock. They were actively betting against it. That's where this story stops being about video games and starts being about one of the strangest mechanisms in financial markets.",
+      "start": 102
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/long",
+      "label": "MM_011",
+      "headline": "Buying a share",
+      "seconds": 10,
+      "narration": "Most people understand buying a stock. You pay twenty dollars for a share, and if the price rises to thirty, you make ten dollars before costs.",
+      "start": 123
+    },
+    {
+      "kind": "film",
+      "shot": "squeeze-cut/borrow",
+      "label": "MM_012",
+      "headline": "Borrowing a share",
+      "seconds": 8,
+      "narration": "Short selling turns that idea upside down. Imagine you borrow a share of a company from someone who owns it.",
+      "start": 133
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/profit",
+      "label": "MM_013",
+      "headline": "Sell at $20, buy back at $10",
+      "seconds": 17,
+      "narration": "You immediately sell that borrowed share for twenty dollars. You are hoping the price will fall. If it drops to ten dollars, you buy a share back for ten, return it to the lender, and keep the difference, minus fees and borrowing costs. Simple enough.",
+      "start": 141
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/loss",
+      "label": "MM_014",
+      "headline": "What if the stock rises?",
+      "seconds": 14,
+      "narration": "But what if the stock doesn't fall? What if it rises to fifty dollars? Or one hundred? You still owe the lender a share. And buying that share back now costs you far more than you originally received.",
+      "start": 158
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/ceiling",
+      "label": "MM_015",
+      "headline": "Losses without a ceiling",
+      "seconds": 20,
+      "narration": "If you bought a stock for twenty dollars, the most you could lose on the share itself is twenty. But if you shorted it at twenty and it climbs to two hundred, your loss is one hundred and eighty dollars, before costs. And theoretically, there is no ceiling on how high that price can go.",
+      "start": 172
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/rush",
+      "label": "MM_016",
+      "headline": "The rush to close",
+      "seconds": 9,
+      "narration": "Now imagine hundreds of investors trying to escape that bet at once. To close their short positions, they must buy shares.",
+      "start": 192
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/squeeze",
+      "label": "MM_017",
+      "headline": "The short squeeze",
+      "seconds": 13,
+      "narration": "That buying can push the price higher, forcing more short sellers to buy, pushing it higher again. That's a short squeeze. And GameStop was sitting on the ingredients for an unusually explosive one.",
+      "start": 201
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/float",
+      "label": "MM_018",
+      "headline": "Short interest reaches 122.97%",
+      "seconds": 14,
+      "narration": "Here is the number that caught traders' attention: GameStop's reported short interest reached roughly one hundred and twenty-three percent of the shares available for public trading in January 2021.",
+      "start": 214
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/relend-first",
+      "label": "MM_019",
+      "headline": "One share, more than one short",
+      "seconds": 6,
+      "narration": "Wait. How can more than one hundred percent of the available shares be sold short?",
+      "start": 228
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/relend-second",
+      "label": "MM_020",
+      "headline": "The lending chain",
+      "seconds": 15,
+      "narration": "Because a share sold by one short seller can be bought by another investor and then lent out again. That creates another short position linked to the chain of lending. It doesn't automatically mean somebody invented fake shares.",
+      "start": 234
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/vulnerability",
+      "label": "MM_021",
+      "headline": "The hidden vulnerability",
+      "seconds": 12,
+      "narration": "But it does mean an extraordinary amount of money was positioned for the stock to fall. And that's dangerous when the crowd suddenly decides it should rise instead.",
+      "start": 249
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/spark",
+      "label": "MM_022",
+      "headline": "All it needed was a spark",
+      "seconds": 15,
+      "narration": "The problem for those short sellers wasn't only that GameStop could become more valuable. It was that the act of getting out of their losing trade could help make the trade even worse. All this situation needed was a spark.",
+      "start": 261
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/gill",
+      "label": "MM_023",
+      "headline": "Enter Roaring Kitty",
+      "seconds": 10,
+      "narration": "One person following GameStop closely was Keith Gill. Online, he became known as Roaring Kitty on YouTube and DeepFuckingValue on Reddit.",
+      "start": 276
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/thesis",
+      "label": "MM_024",
+      "headline": "Gill shares his thesis",
+      "seconds": 21,
+      "narration": "Long before GameStop became a headline, Gill had publicly argued that the market was underestimating the company. He had shared his investment thesis and his position in the stock. His argument wasn't simply \"let's attack hedge funds.\" He saw a business that, in his view, might be worth more than the market believed.",
+      "start": 286
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/cohen",
+      "label": "MM_025",
+      "headline": "Ryan Cohen joins the board",
+      "seconds": 17,
+      "narration": "Then came another reason for optimism. Ryan Cohen, the co-founder of online pet retailer Chewy, had built a stake in GameStop and joined its board in January 2021. Investors began imagining a digital turnaround.",
+      "start": 307
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/forum",
+      "label": "MM_026",
+      "headline": "WallStreetBets picks up the story",
+      "seconds": 20,
+      "narration": "On Reddit's WallStreetBets forum, discussions about GameStop grew louder. Some users studied the financial numbers. Some wanted to make money. Some hated the idea of hedge funds profiting from a company's decline. And some were simply swept up in the joke, the memes, and the momentum.",
+      "start": 324
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/attention",
+      "label": "MM_027",
+      "headline": "The price begins to move",
+      "seconds": 10,
+      "narration": "There wasn't one perfectly organized army with a single plan. But suddenly, huge numbers of people were watching the same stock. And the price began to move.",
+      "start": 344
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/jan13",
+      "label": "MM_028",
+      "headline": "The first big jump",
+      "seconds": 17,
+      "narration": "On January thirteenth, the stock closed at thirty-one dollars and forty cents. The price had jumped, but another number was even more striking. About a hundred and forty-four million GameStop shares traded that day, up from roughly seven million the day before.",
+      "start": 354
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/jan22",
+      "label": "MM_029",
+      "headline": "Seventy-two dollars in hours",
+      "seconds": 15,
+      "narration": "On January twenty-second, the price went from forty-three to seventy-two dollars in about three hours. Traders watched the bids move in real time. A seller who had counted on buying back at twenty now had a very different problem.",
+      "start": 371
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/accounts",
+      "label": "MM_030",
+      "headline": "Nearly 900,000 accounts",
+      "seconds": 15,
+      "narration": "At the start of January, fewer than ten thousand individual accounts were trading GameStop on a given day. By January twenty-seventh, it was nearly nine hundred thousand. And individuals weren't the only participants. Institutions traded it too.",
+      "start": 386
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/peak",
+      "label": "MM_031",
+      "headline": "A close and an intraday peak",
+      "seconds": 17,
+      "narration": "GameStop closed January twenty-seventh at three hundred and forty-seven dollars and fifty-one cents. The next day it touched four hundred and eighty-three during trading. That's the peak we started with. It was a price someone paid during the session, not the closing price.",
+      "start": 401
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/report-cover",
+      "label": "MM_032",
+      "headline": "What the SEC found",
+      "seconds": 17,
+      "narration": "Short sellers did buy shares to exit, and in some stretches their orders mattered. But SEC staff found those purchases made up a small share of total buying. Wider enthusiasm for GameStop kept demand going after the effects of short covering had faded.",
+      "start": 418
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/receipt",
+      "label": "MM_033",
+      "headline": "A fill is only the first step",
+      "seconds": 14,
+      "narration": "Now go back to that phone. A trade confirmation tells you the order was filled. Behind the screen, the money and shares still have to change hands. In January twenty twenty-one, that generally took two business days.",
+      "start": 435
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/clearing",
+      "label": "MM_034",
+      "headline": "Who stands between the brokers?",
+      "seconds": 14,
+      "narration": "The National Securities Clearing Corporation stands between member brokers. Think of a buyer on one side, a seller on the other, and the clearinghouse in the middle. It helps make sure each side receives what it is owed.",
+      "start": 449
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/unsettled",
+      "label": "MM_035",
+      "headline": "Why the interval creates risk",
+      "seconds": 15,
+      "narration": "The price can move sharply between the trade and settlement. If a broker fails before the trade is settled, someone still has to make good on it. The clearinghouse manages that risk by requiring its member brokers to put up collateral.",
+      "start": 463
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/deposit",
+      "label": "MM_036",
+      "headline": "The collateral demand rises",
+      "seconds": 15,
+      "narration": "When trading gets volatile and unsettled positions pile up, those requirements can rise. Robinhood said higher deposit requirements from its clearinghouse led it to restrict purchases in GameStop and other stocks. The collateral demand was on its clearing broker.",
+      "start": 478
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/restricted-again",
+      "label": "MM_037",
+      "headline": "Buy disabled, sell available",
+      "seconds": 13,
+      "narration": "So the same stock was still trading, and other brokers could make different choices. But some Robinhood customers could sell a position while being blocked from adding to it. The app made that difference painfully visible.",
+      "start": 493
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/limits",
+      "label": "MM_038",
+      "headline": "Restrictions ease",
+      "seconds": 16,
+      "narration": "Robinhood later moved from blocking purchases to limiting how many shares customers could buy. The restrictions and limits ran into early February. The distinction matters. A broker's purchase limit changes who can place an order through that broker while trading continues elsewhere.",
+      "start": 506
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/drop",
+      "label": "MM_039",
+      "headline": "From the peak back below $100",
+      "seconds": 18,
+      "narration": "The peak didn't hold. By February third, GameStop was below a hundred dollars. By February nineteenth, it had fallen as low as forty dollars and fifty-nine cents. Anyone who bought near the top and held through that decline saw a very different outcome from an early buyer.",
+      "start": 522
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/two-receipts",
+      "label": "MM_040",
+      "headline": "One stock, two outcomes",
+      "seconds": 16,
+      "narration": "Imagine two people selling at forty dollars. The first bought at twenty and made twenty dollars on each share before costs. The second bought at four hundred and lost three hundred and sixty. The same exit price can tell two entirely different stories.",
+      "start": 540
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/hearing",
+      "label": "MM_041",
+      "headline": "The story reaches Congress",
+      "seconds": 16,
+      "narration": "On February eighteenth, a House committee held a hearing. Keith Gill, Robinhood's chief executive, Reddit's chief executive, and representatives of major funds were among the witnesses. The questions shifted from who was winning to how brokers and markets had handled the surge.",
+      "start": 556
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/sec-file",
+      "label": "MM_042",
+      "headline": "Separate the mechanism from the story",
+      "seconds": 16,
+      "narration": "The later SEC staff report put two pieces beside each other. Some short sellers buying to cover helped drive the price during parts of the rally. Broader buying was more important to keeping it elevated over weeks. Both pieces belong in the story.",
+      "start": 572
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/split",
+      "label": "MM_043",
+      "headline": "Why historical chart prices differ",
+      "seconds": 16,
+      "narration": "One detail makes old charts look confusing. GameStop split its stock four for one in twenty twenty-two. Some charts adjust the old prices for that split. The twenty and the four hundred and eighty-three you've seen here use the prices quoted at the time.",
+      "start": 588
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/recap-loan",
+      "label": "MM_044",
+      "headline": "The position was already crowded",
+      "seconds": 18,
+      "narration": "Start at the lending desk. A share can pass from a lender to a short seller to a new owner. That new owner can lend it again. Count the open short positions and compare them with the public float. That's how the ratio could exceed a hundred percent.",
+      "start": 604
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/recap-bids",
+      "label": "MM_045",
+      "headline": "Getting out can lift the price",
+      "seconds": 18,
+      "narration": "Then go to the exchange. Someone sells a borrowed share, expecting to replace it for less. If the price rises and the seller wants out, closing means placing a buy order. Enough of those orders can push the price up again and put the next short seller under pressure.",
+      "start": 622
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/recap-clearing",
+      "label": "MM_046",
+      "headline": "A second kind of collateral",
+      "seconds": 17,
+      "narration": "Now go behind the app. The short seller's obligation to return a share is one part of the system. A broker's obligation to complete its customers' trades is another. As unsettled trades grow riskier, the clearinghouse can ask that broker for a larger deposit.",
+      "start": 640
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/recap-phone",
+      "label": "MM_047",
+      "headline": "What the phone was showing",
+      "seconds": 16,
+      "narration": "That's what makes the frozen buy button such a revealing image. A trader could see a stock, a quote, and a sell button on one screen. The rule that changed the buy button came from decisions and obligations several steps away from that screen.",
+      "start": 657
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/end",
+      "label": "MM_048",
+      "headline": "From a game store to market plumbing",
+      "seconds": 20,
+      "narration": "The story began with a retailer in a mall and a debate about its future. It ended up testing how short positions, online demand, and brokerage funding interact under pressure. Follow the borrowed share, the buy order, and the collateral. The path from twenty dollars to four hundred and eighty-three makes a lot more sense.",
+      "start": 673
+    }
+  ],
+  "captions": [
+    {
+      "text": "January 28th, 2021.",
+      "start": 0.0,
+      "end": 2.5739719443357734
+    },
+    {
+      "text": "A stock belonging to a struggling video",
+      "start": 2.5739719443357734,
+      "end": 4.484999430772638
+    },
+    {
+      "text": "game retailer briefly touches four",
+      "start": 4.484999430772638,
+      "end": 6.157148481404894
+    },
+    {
+      "text": "hundred and eighty-three dollars.",
+      "start": 6.157148481404894,
+      "end": 7.84
+    },
+    {
+      "text": "Just weeks earlier, it had been trading",
+      "start": 10.0,
+      "end": 12.296479031172908
+    },
+    {
+      "text": "around twenty.",
+      "start": 12.296479031172908,
+      "end": 13.221100894570283
+    },
+    {
+      "text": "People on the internet are celebrating.",
+      "start": 15.0,
+      "end": 17.111136029503378
+    },
+    {
+      "text": "Hedge funds are taking enormous losses.",
+      "start": 17.111136029503378,
+      "end": 19.426403528444343
+    },
+    {
+      "text": "And everyone is watching the same green",
+      "start": 19.426403528444343,
+      "end": 21.704392390284138
+    },
+    {
+      "text": "line climb higher and higher.",
+      "start": 21.704392390284138,
+      "end": 23.476788517604845
+    },
+    {
+      "text": "Then, something extraordinary happens.",
+      "start": 25.0,
+      "end": 27.30250928210112
+    },
+    {
+      "text": "On Robinhood, one of the apps used by",
+      "start": 27.30250928210112,
+      "end": 29.547312174477327
+    },
+    {
+      "text": "the very traders driving the frenzy,",
+      "start": 29.547312174477327,
+      "end": 31.73304130652784
+    },
+    {
+      "text": "customers can no longer buy GameStop",
+      "start": 31.73304130652784,
+      "end": 33.91877043857836
+    },
+    {
+      "text": "shares.",
+      "start": 33.91877043857836,
+      "end": 34.45314096334504
+    },
+    {
+      "text": "They can sell.",
+      "start": 34.45314096334504,
+      "end": 35.33948817622287
+    },
+    {
+      "text": "But they cannot buy.",
+      "start": 35.33948817622287,
+      "end": 36.59582367745633
+    },
+    {
+      "text": "Imagine watching a financial battle",
+      "start": 39.0,
+      "end": 41.160686367415806
+    },
+    {
+      "text": "unfold, only to discover that your",
+      "start": 41.160686367415806,
+      "end": 43.26135366907006
+    },
+    {
+      "text": "trading app has changed what you're",
+      "start": 43.26135366907006,
+      "end": 45.42204003648587
+    },
+    {
+      "text": "allowed to do.",
+      "start": 45.42204003648587,
+      "end": 46.39460183673803
+    },
+    {
+      "text": "Was this ordinary people defeating Wall",
+      "start": 46.39460183673803,
+      "end": 48.58161407915237
+    },
+    {
+      "text": "Street?",
+      "start": 48.58161407915237,
+      "end": 49.09663610116533
+    },
+    {
+      "text": "Was the system protecting itself?",
+      "start": 49.09663610116533,
+      "end": 51.18416746921861
+    },
+    {
+      "text": "Or was the real story more complicated",
+      "start": 51.18416746921861,
+      "end": 53.67302058265773
+    },
+    {
+      "text": "than either side wanted to admit?",
+      "start": 53.67302058265773,
+      "end": 55.91126809669667
+    },
+    {
+      "text": "To understand that day, we have to go",
+      "start": 55.91126809669667,
+      "end": 58.00150900936286
+    },
+    {
+      "text": "back to a company that much of Wall",
+      "start": 58.00150900936286,
+      "end": 59.98173724241505
+    },
+    {
+      "text": "Street believed was running out of time.",
+      "start": 59.98173724241505,
+      "end": 62.31428571428572
+    },
+    {
+      "text": "GameStop was once a familiar stop for",
+      "start": 63.0,
+      "end": 65.32979215292141
+    },
+    {
+      "text": "gamers in American shopping malls.",
+      "start": 65.32979215292141,
+      "end": 67.53519722907478
+    },
+    {
+      "text": "You walked in, browsed the shelves,",
+      "start": 70.0,
+      "end": 72.12800097526052
+    },
+    {
+      "text": "traded in used games, and left carrying",
+      "start": 72.12800097526052,
+      "end": 74.49244650332777
+    },
+    {
+      "text": "a physical copy of something you",
+      "start": 74.49244650332777,
+      "end": 76.44311406398324
+    },
+    {
+      "text": "couldn't wait to play.",
+      "start": 76.44311406398324,
+      "end": 77.88571428571429
+    },
+    {
+      "text": "But the industry was changing.",
+      "start": 79.0,
+      "end": 80.70287309062819
+    },
+    {
+      "text": "More customers were downloading games",
+      "start": 80.70287309062819,
+      "end": 82.82979130444568
+    },
+    {
+      "text": "instead of buying discs.",
+      "start": 82.82979130444568,
+      "end": 84.29396227355411
+    },
+    {
+      "text": "Online shopping kept growing.",
+      "start": 84.29396227355411,
+      "end": 86.0478682315417
+    },
+    {
+      "text": "And during the pandemic, physical stores",
+      "start": 89.0,
+      "end": 91.3750972322401
+    },
+    {
+      "text": "faced another enormous challenge.",
+      "start": 91.3750972322401,
+      "end": 93.40761506067628
+    },
+    {
+      "text": "To many professional investors, the",
+      "start": 93.40761506067628,
+      "end": 95.2447982856146
+    },
+    {
+      "text": "business looked like a company from the",
+      "start": 95.2447982856146,
+      "end": 97.28611297999053
+    },
+    {
+      "text": "past trying to survive in the future.",
+      "start": 97.28611297999053,
+      "end": 99.29518327477511
+    },
+    {
+      "text": "Some believed GameStop could turn things",
+      "start": 102.0,
+      "end": 104.30660184160014
+    },
+    {
+      "text": "around.",
+      "start": 104.30660184160014,
+      "end": 104.82895499642322
+    },
+    {
+      "text": "Others thought the stock price had much",
+      "start": 104.82895499642322,
+      "end": 106.81597740124747
+    },
+    {
+      "text": "further to fall.",
+      "start": 106.81597740124747,
+      "end": 107.73932944748314
+    },
+    {
+      "text": "And some of those pessimists weren't",
+      "start": 107.73932944748314,
+      "end": 109.70782784940062
+    },
+    {
+      "text": "simply avoiding the stock.",
+      "start": 109.70782784940062,
+      "end": 111.21964008099998
+    },
+    {
+      "text": "They were actively betting against it.",
+      "start": 111.21964008099998,
+      "end": 113.07156162178279
+    },
+    {
+      "text": "That's where this story stops being",
+      "start": 113.07156162178279,
+      "end": 115.09702713174501
+    },
+    {
+      "text": "about video games and starts being about",
+      "start": 115.09702713174501,
+      "end": 117.40380729586866
+    },
+    {
+      "text": "one of the strangest mechanisms in",
+      "start": 117.40380729586866,
+      "end": 119.3730098749986
+    },
+    {
+      "text": "financial markets.",
+      "start": 119.3730098749986,
+      "end": 120.5142857142857
+    },
+    {
+      "text": "Most people understand buying a stock.",
+      "start": 123.0,
+      "end": 125.39267621253724
+    },
+    {
+      "text": "You pay twenty dollars for a share, and",
+      "start": 125.39267621253724,
+      "end": 127.84893543569058
+    },
+    {
+      "text": "if the price rises to thirty, you make",
+      "start": 127.84893543569058,
+      "end": 130.24378817826508
+    },
+    {
+      "text": "ten dollars before costs.",
+      "start": 130.24378817826508,
+      "end": 131.9142857142857
+    },
+    {
+      "text": "Short selling turns that idea upside",
+      "start": 133.0,
+      "end": 135.42693630869044
+    },
+    {
+      "text": "down.",
+      "start": 135.42693630869044,
+      "end": 135.89371039331806
+    },
+    {
+      "text": "Imagine you borrow a share of a company",
+      "start": 135.89371039331806,
+      "end": 138.24732439038664
+    },
+    {
+      "text": "from someone who owns it.",
+      "start": 138.24732439038664,
+      "end": 139.85714285714286
+    },
+    {
+      "text": "You immediately sell that borrowed share",
+      "start": 141.0,
+      "end": 143.24963190755753
+    },
+    {
+      "text": "for twenty dollars.",
+      "start": 143.24963190755753,
+      "end": 144.42773273693038
+    },
+    {
+      "text": "You are hoping the price will fall.",
+      "start": 144.42773273693038,
+      "end": 146.28096169974842
+    },
+    {
+      "text": "If it drops to ten dollars, you buy a",
+      "start": 146.28096169974842,
+      "end": 148.70707739092484
+    },
+    {
+      "text": "share back for ten, return it to the",
+      "start": 148.70707739092484,
+      "end": 151.06934793233347
+    },
+    {
+      "text": "lender, and keep the difference, minus",
+      "start": 151.06934793233347,
+      "end": 153.5593087732777
+    },
+    {
+      "text": "fees and borrowing costs.",
+      "start": 153.5593087732777,
+      "end": 155.29102599944088
+    },
+    {
+      "text": "Simple enough.",
+      "start": 155.29102599944088,
+      "end": 156.42857142857144
+    },
+    {
+      "text": "But what if the stock doesn't fall?",
+      "start": 158.0,
+      "end": 160.1338142275406
+    },
+    {
+      "text": "What if it rises to fifty dollars?",
+      "start": 160.1338142275406,
+      "end": 162.39363553498097
+    },
+    {
+      "text": "Or one hundred?",
+      "start": 162.39363553498097,
+      "end": 163.566645778286
+    },
+    {
+      "text": "You still owe the lender a share.",
+      "start": 163.566645778286,
+      "end": 165.62170558088926
+    },
+    {
+      "text": "And buying that share back now costs you",
+      "start": 165.62170558088926,
+      "end": 168.13128012946225
+    },
+    {
+      "text": "far more than you originally received.",
+      "start": 168.13128012946225,
+      "end": 170.60642999116166
+    },
+    {
+      "text": "If you bought a stock for twenty",
+      "start": 172.0,
+      "end": 173.91127145019811
+    },
+    {
+      "text": "dollars, the most you could lose on the",
+      "start": 173.91127145019811,
+      "end": 176.22796411710496
+    },
+    {
+      "text": "share itself is twenty.",
+      "start": 176.22796411710496,
+      "end": 177.70926511969597
+    },
+    {
+      "text": "But if you shorted it at twenty and it",
+      "start": 177.70926511969597,
+      "end": 180.31485526874792
+    },
+    {
+      "text": "climbs to two hundred, your loss is one",
+      "start": 180.31485526874792,
+      "end": 182.98725542162174
+    },
+    {
+      "text": "hundred and eighty dollars, before",
+      "start": 182.98725542162174,
+      "end": 185.32560555538637
+    },
+    {
+      "text": "costs.",
+      "start": 185.32560555538637,
+      "end": 185.875668297437
+    },
+    {
+      "text": "And theoretically, there is no ceiling",
+      "start": 185.875668297437,
+      "end": 188.35951437785215
+    },
+    {
+      "text": "on how high that price can go.",
+      "start": 188.35951437785215,
+      "end": 190.4193679280603
+    },
+    {
+      "text": "Now imagine hundreds of investors trying",
+      "start": 192.0,
+      "end": 194.44564205967106
+    },
+    {
+      "text": "to escape that bet at once.",
+      "start": 194.44564205967106,
+      "end": 196.18134273794675
+    },
+    {
+      "text": "To close their short positions, they",
+      "start": 196.18134273794675,
+      "end": 198.2013342497746
+    },
+    {
+      "text": "must buy shares.",
+      "start": 198.2013342497746,
+      "end": 199.2
+    },
+    {
+      "text": "That buying can push the price higher,",
+      "start": 201.0,
+      "end": 203.14683789289188
+    },
+    {
+      "text": "forcing more short sellers to buy,",
+      "start": 203.14683789289188,
+      "end": 205.07348728394868
+    },
+    {
+      "text": "pushing it higher again.",
+      "start": 205.07348728394868,
+      "end": 206.5207945041149
+    },
+    {
+      "text": "That's a short squeeze.",
+      "start": 206.5207945041149,
+      "end": 207.7924945981262
+    },
+    {
+      "text": "And GameStop was sitting on the",
+      "start": 207.7924945981262,
+      "end": 209.66795695844777
+    },
+    {
+      "text": "ingredients for an unusually explosive",
+      "start": 209.66795695844777,
+      "end": 211.9536767100897
+    },
+    {
+      "text": "one.",
+      "start": 211.9536767100897,
+      "end": 212.31428571428572
+    },
+    {
+      "text": "Here is the number that caught traders'",
+      "start": 214.0,
+      "end": 216.28616936099928
+    },
+    {
+      "text": "attention: GameStop's reported short",
+      "start": 216.28616936099928,
+      "end": 218.40087601992363
+    },
+    {
+      "text": "interest reached roughly one hundred and",
+      "start": 218.40087601992363,
+      "end": 220.74419961494792
+    },
+    {
+      "text": "twenty-three percent of the shares",
+      "start": 220.74419961494792,
+      "end": 222.7445978058223
+    },
+    {
+      "text": "available for public trading in January",
+      "start": 222.7445978058223,
+      "end": 225.0307671668216
+    },
+    {
+      "text": "2021.",
+      "start": 225.0307671668216,
+      "end": 225.43739253943335
+    },
+    {
+      "text": "Wait.",
+      "start": 228.0,
+      "end": 228.4891245405796
+    },
+    {
+      "text": "How can more than one hundred percent of",
+      "start": 228.4891245405796,
+      "end": 230.9250164858082
+    },
+    {
+      "text": "the available shares be sold short?",
+      "start": 230.9250164858082,
+      "end": 233.14285714285714
+    },
+    {
+      "text": "Because a share sold by one short seller",
+      "start": 234.0,
+      "end": 236.34710680439474
+    },
+    {
+      "text": "can be bought by another investor and",
+      "start": 236.34710680439474,
+      "end": 238.5224740865167
+    },
+    {
+      "text": "then lent out again.",
+      "start": 238.5224740865167,
+      "end": 239.79432000840134
+    },
+    {
+      "text": "That creates another short position",
+      "start": 239.79432000840134,
+      "end": 241.6804551745754
+    },
+    {
+      "text": "linked to the chain of lending.",
+      "start": 241.6804551745754,
+      "end": 243.4315428966247
+    },
+    {
+      "text": "It doesn't automatically mean somebody",
+      "start": 243.4315428966247,
+      "end": 245.68711618968044
+    },
+    {
+      "text": "invented fake shares.",
+      "start": 245.68711618968044,
+      "end": 247.02857142857144
+    },
+    {
+      "text": "But it does mean an extraordinary amount",
+      "start": 249.0,
+      "end": 251.2587940173278
+    },
+    {
+      "text": "of money was positioned for the stock to",
+      "start": 251.2587940173278,
+      "end": 253.51758803465563
+    },
+    {
+      "text": "fall.",
+      "start": 253.51758803465563,
+      "end": 253.9323234861266
+    },
+    {
+      "text": "And that's dangerous when the crowd",
+      "start": 253.9323234861266,
+      "end": 256.07735684017825
+    },
+    {
+      "text": "suddenly decides it should rise instead.",
+      "start": 256.07735684017825,
+      "end": 258.6
+    },
+    {
+      "text": "The problem for those short sellers",
+      "start": 261.0,
+      "end": 263.19995513203696
+    },
+    {
+      "text": "wasn't only that GameStop could become",
+      "start": 263.19995513203696,
+      "end": 265.5832398584104
+    },
+    {
+      "text": "more valuable.",
+      "start": 265.5832398584104,
+      "end": 266.5791585486529
+    },
+    {
+      "text": "It was that the act of getting out of",
+      "start": 266.5791585486529,
+      "end": 268.66997753456485
+    },
+    {
+      "text": "their losing trade could help make the",
+      "start": 268.66997753456485,
+      "end": 270.81581807273767
+    },
+    {
+      "text": "trade even worse.",
+      "start": 270.81581807273767,
+      "end": 271.89156504451114
+    },
+    {
+      "text": "All this situation needed was a spark.",
+      "start": 271.89156504451114,
+      "end": 274.7142857142857
+    },
+    {
+      "text": "One person following GameStop closely",
+      "start": 276.0,
+      "end": 278.3325871920404
+    },
+    {
+      "text": "was Keith Gill.",
+      "start": 278.3325871920404,
+      "end": 279.3741994966485
+    },
+    {
+      "text": "Online, he became known as Roaring Kitty",
+      "start": 279.3741994966485,
+      "end": 281.64301010575906
+    },
+    {
+      "text": "on YouTube and DeepFuckingValue on",
+      "start": 281.64301010575906,
+      "end": 283.57979965012174
+    },
+    {
+      "text": "Reddit.",
+      "start": 283.57979965012174,
+      "end": 284.08801176148114
+    },
+    {
+      "text": "Long before GameStop became a headline,",
+      "start": 286.0,
+      "end": 288.31231876176906
+    },
+    {
+      "text": "Gill had publicly argued that the market",
+      "start": 288.31231876176906,
+      "end": 290.6824454925824
+    },
+    {
+      "text": "was underestimating the company.",
+      "start": 290.6824454925824,
+      "end": 292.6578141676714
+    },
+    {
+      "text": "He had shared his investment thesis and",
+      "start": 292.6578141676714,
+      "end": 294.77783055777206
+    },
+    {
+      "text": "his position in the stock.",
+      "start": 294.77783055777206,
+      "end": 296.28135487701115
+    },
+    {
+      "text": "His argument wasn't simply \"let's attack",
+      "start": 296.28135487701115,
+      "end": 298.6050553235695
+    },
+    {
+      "text": "hedge funds.\" He saw a business that, in",
+      "start": 298.6050553235695,
+      "end": 300.92875577012785
+    },
+    {
+      "text": "his view, might be worth more than the",
+      "start": 300.92875577012785,
+      "end": 303.13910497539064
+    },
+    {
+      "text": "market believed.",
+      "start": 303.13910497539064,
+      "end": 304.1714285714286
+    },
+    {
+      "text": "Then came another reason for optimism.",
+      "start": 307.0,
+      "end": 309.41733323365975
+    },
+    {
+      "text": "Ryan Cohen, the co-founder of online pet",
+      "start": 309.41733323365975,
+      "end": 312.44195662431343
+    },
+    {
+      "text": "retailer Chewy, had built a stake in",
+      "start": 312.44195662431343,
+      "end": 315.17149480612284
+    },
+    {
+      "text": "GameStop and joined its board in January",
+      "start": 315.17149480612284,
+      "end": 318.1961181967765
+    },
+    {
+      "text": "2021.",
+      "start": 318.1961181967765,
+      "end": 318.6858289103187
+    },
+    {
+      "text": "Investors began imagining a digital",
+      "start": 318.6858289103187,
+      "end": 320.95299118790217
+    },
+    {
+      "text": "turnaround.",
+      "start": 320.95299118790217,
+      "end": 321.76658941965064
+    },
+    {
+      "text": "On Reddit's WallStreetBets forum,",
+      "start": 324.0,
+      "end": 326.0322266495037
+    },
+    {
+      "text": "discussions about GameStop grew louder.",
+      "start": 326.0322266495037,
+      "end": 328.4841643617154
+    },
+    {
+      "text": "Some users studied the financial",
+      "start": 328.4841643617154,
+      "end": 330.3017434973632
+    },
+    {
+      "text": "numbers.",
+      "start": 330.3017434973632,
+      "end": 330.8632229448556
+    },
+    {
+      "text": "Some wanted to make money.",
+      "start": 330.8632229448556,
+      "end": 332.3874809997259
+    },
+    {
+      "text": "Some hated the idea of hedge funds",
+      "start": 332.3874809997259,
+      "end": 334.46069123620146
+    },
+    {
+      "text": "profiting from a company's decline.",
+      "start": 334.46069123620146,
+      "end": 336.6547556751638
+    },
+    {
+      "text": "And some were simply swept up in the",
+      "start": 336.6547556751638,
+      "end": 338.5961609531601
+    },
+    {
+      "text": "joke, the memes, and the momentum.",
+      "start": 338.5961609531601,
+      "end": 340.50100919488676
+    },
+    {
+      "text": "There wasn't one perfectly organized",
+      "start": 344.0,
+      "end": 346.2020629904509
+    },
+    {
+      "text": "army with a single plan.",
+      "start": 346.2020629904509,
+      "end": 347.76320731679493
+    },
+    {
+      "text": "But suddenly, huge numbers of people",
+      "start": 347.76320731679493,
+      "end": 349.8063054230633
+    },
+    {
+      "text": "were watching the same stock.",
+      "start": 349.8063054230633,
+      "end": 351.54043173078463
+    },
+    {
+      "text": "And the price began to move.",
+      "start": 351.54043173078463,
+      "end": 353.25714285714287
+    },
+    {
+      "text": "On January thirteenth, the stock closed",
+      "start": 354.0,
+      "end": 356.36252059003925
+    },
+    {
+      "text": "at thirty-one dollars and forty cents.",
+      "start": 356.36252059003925,
+      "end": 358.7255013559959
+    },
+    {
+      "text": "The price had jumped, but another number",
+      "start": 358.7255013559959,
+      "end": 360.8267022114431
+    },
+    {
+      "text": "was even more striking.",
+      "start": 360.8267022114431,
+      "end": 362.124010847967
+    },
+    {
+      "text": "About a hundred and forty-four million",
+      "start": 362.124010847967,
+      "end": 364.3231451635049
+    },
+    {
+      "text": "GameStop shares traded that day, up from",
+      "start": 364.3231451635049,
+      "end": 366.63505559778827
+    },
+    {
+      "text": "roughly seven million the day before.",
+      "start": 366.63505559778827,
+      "end": 368.84
+    },
+    {
+      "text": "On January twenty-second, the price went",
+      "start": 371.0,
+      "end": 373.47322076564893
+    },
+    {
+      "text": "from forty-three to seventy-two dollars",
+      "start": 373.47322076564893,
+      "end": 375.88611907359905
+    },
+    {
+      "text": "in about three hours.",
+      "start": 375.88611907359905,
+      "end": 377.28328043562055
+    },
+    {
+      "text": "Traders watched the bids move in real",
+      "start": 377.28328043562055,
+      "end": 379.36337427428157
+    },
+    {
+      "text": "time.",
+      "start": 379.36337427428157,
+      "end": 379.76746058234784
+    },
+    {
+      "text": "A seller who had counted on buying back",
+      "start": 379.76746058234784,
+      "end": 381.92340190221915
+    },
+    {
+      "text": "at twenty now had a very different",
+      "start": 381.92340190221915,
+      "end": 383.80985055710664
+    },
+    {
+      "text": "problem.",
+      "start": 383.80985055710664,
+      "end": 384.37142857142857
+    },
+    {
+      "text": "At the start of January, fewer than ten",
+      "start": 386.0,
+      "end": 388.11146419727936
+    },
+    {
+      "text": "thousand individual accounts were",
+      "start": 388.11146419727936,
+      "end": 389.9062087649668
+    },
+    {
+      "text": "trading GameStop on a given day.",
+      "start": 389.9062087649668,
+      "end": 391.70626529536617
+    },
+    {
+      "text": "By January twenty-seventh, it was nearly",
+      "start": 391.70626529536617,
+      "end": 393.66410949918634
+    },
+    {
+      "text": "nine hundred thousand.",
+      "start": 393.66410949918634,
+      "end": 394.8255452201536
+    },
+    {
+      "text": "And individuals weren't the only",
+      "start": 394.8255452201536,
+      "end": 396.37911060352786
+    },
+    {
+      "text": "participants.",
+      "start": 396.37911060352786,
+      "end": 397.1020063816755
+    },
+    {
+      "text": "Institutions traded it too.",
+      "start": 397.1020063816755,
+      "end": 398.84
+    },
+    {
+      "text": "GameStop closed January twenty-seventh",
+      "start": 401.0,
+      "end": 403.30422542455796
+    },
+    {
+      "text": "at three hundred and forty-seven dollars",
+      "start": 403.30422542455796,
+      "end": 405.72661625550353
+    },
+    {
+      "text": "and fifty-one cents.",
+      "start": 405.72661625550353,
+      "end": 407.0331966893963
+    },
+    {
+      "text": "The next day it touched four hundred and",
+      "start": 407.0331966893963,
+      "end": 408.9844625955345
+    },
+    {
+      "text": "eighty-three during trading.",
+      "start": 408.9844625955345,
+      "end": 410.4419608038897
+    },
+    {
+      "text": "That's the peak we started with.",
+      "start": 410.4419608038897,
+      "end": 411.96482613340254
+    },
+    {
+      "text": "It was a price someone paid during the",
+      "start": 411.96482613340254,
+      "end": 414.0001272896607
+    },
+    {
+      "text": "session, not the closing price.",
+      "start": 414.0001272896607,
+      "end": 415.74285714285713
+    },
+    {
+      "text": "Short sellers did buy shares to exit,",
+      "start": 418.0,
+      "end": 420.02178474789736
+    },
+    {
+      "text": "and in some stretches their orders",
+      "start": 420.02178474789736,
+      "end": 421.88395491043434
+    },
+    {
+      "text": "mattered.",
+      "start": 421.88395491043434,
+      "end": 422.4857965595387
+    },
+    {
+      "text": "But SEC staff found those purchases made",
+      "start": 422.4857965595387,
+      "end": 424.7951109598768
+    },
+    {
+      "text": "up a small share of total buying.",
+      "start": 424.7951109598768,
+      "end": 426.7768253214651
+    },
+    {
+      "text": "Wider enthusiasm for GameStop kept",
+      "start": 426.7768253214651,
+      "end": 428.95242306075124
+    },
+    {
+      "text": "demand going after the effects of short",
+      "start": 428.95242306075124,
+      "end": 431.43882047707837
+    },
+    {
+      "text": "covering had faded.",
+      "start": 431.43882047707837,
+      "end": 432.74285714285713
+    },
+    {
+      "text": "Now go back to that phone.",
+      "start": 435.0,
+      "end": 436.6066816103455
+    },
+    {
+      "text": "A trade confirmation tells you the order",
+      "start": 436.6066816103455,
+      "end": 438.9561793262593
+    },
+    {
+      "text": "was filled.",
+      "start": 438.9561793262593,
+      "end": 439.7097948258848
+    },
+    {
+      "text": "Behind the screen, the money and shares",
+      "start": 439.7097948258848,
+      "end": 441.9937709033772
+    },
+    {
+      "text": "still have to change hands.",
+      "start": 441.9937709033772,
+      "end": 443.6587172095771
+    },
+    {
+      "text": "In January twenty twenty-one, that",
+      "start": 443.6587172095771,
+      "end": 445.6679923827913
+    },
+    {
+      "text": "generally took two business days.",
+      "start": 445.6679923827913,
+      "end": 447.6857142857143
+    },
+    {
+      "text": "The National Securities Clearing",
+      "start": 449.0,
+      "end": 450.9596033749518
+    },
+    {
+      "text": "Corporation stands between member",
+      "start": 450.9596033749518,
+      "end": 452.97858867035666
+    },
+    {
+      "text": "brokers.",
+      "start": 452.97858867035666,
+      "end": 453.5871498535818
+    },
+    {
+      "text": "Think of a buyer on one side, a seller",
+      "start": 453.5871498535818,
+      "end": 455.927830854374
+    },
+    {
+      "text": "on the other, and the clearinghouse in",
+      "start": 455.927830854374,
+      "end": 458.26851185516614
+    },
+    {
+      "text": "the middle.",
+      "start": 458.26851185516614,
+      "end": 459.0622097519132
+    },
+    {
+      "text": "It helps make sure each side receives",
+      "start": 459.0622097519132,
+      "end": 461.0557009105834
+    },
+    {
+      "text": "what it is owed.",
+      "start": 461.0557009105834,
+      "end": 462.0285714285714
+    },
+    {
+      "text": "The price can move sharply between the",
+      "start": 463.0,
+      "end": 465.27852274692356
+    },
+    {
+      "text": "trade and settlement.",
+      "start": 465.27852274692356,
+      "end": 466.64435532188054
+    },
+    {
+      "text": "If a broker fails before the trade is",
+      "start": 466.64435532188054,
+      "end": 468.80075760279044
+    },
+    {
+      "text": "settled, someone still has to make good",
+      "start": 468.80075760279044,
+      "end": 471.0706547405904
+    },
+    {
+      "text": "on it.",
+      "start": 471.0706547405904,
+      "end": 471.5500750224893
+    },
+    {
+      "text": "The clearinghouse manages that risk by",
+      "start": 471.5500750224893,
+      "end": 473.9024025821922
+    },
+    {
+      "text": "requiring its member brokers to put up",
+      "start": 473.9024025821922,
+      "end": 476.25473014189515
+    },
+    {
+      "text": "collateral.",
+      "start": 476.25473014189515,
+      "end": 477.0571428571429
+    },
+    {
+      "text": "When trading gets volatile and unsettled",
+      "start": 478.0,
+      "end": 480.1022330914389
+    },
+    {
+      "text": "positions pile up, those requirements",
+      "start": 480.1022330914389,
+      "end": 482.0506442493578
+    },
+    {
+      "text": "can rise.",
+      "start": 482.0506442493578,
+      "end": 482.6192320235142
+    },
+    {
+      "text": "Robinhood said higher deposit",
+      "start": 482.6192320235142,
+      "end": 484.129470167799
+    },
+    {
+      "text": "requirements from its clearinghouse led",
+      "start": 484.129470167799,
+      "end": 486.1431210268454
+    },
+    {
+      "text": "it to restrict purchases in GameStop and",
+      "start": 486.1431210268454,
+      "end": 488.207113157368
+    },
+    {
+      "text": "other stocks.",
+      "start": 488.207113157368,
+      "end": 488.9686716601546
+    },
+    {
+      "text": "The collateral demand was on its",
+      "start": 488.9686716601546,
+      "end": 490.51471151614146
+    },
+    {
+      "text": "clearing broker.",
+      "start": 490.51471151614146,
+      "end": 491.37142857142857
+    },
+    {
+      "text": "So the same stock was still trading, and",
+      "start": 493.0,
+      "end": 495.3557083953668
+    },
+    {
+      "text": "other brokers could make different",
+      "start": 495.3557083953668,
+      "end": 497.3666789767774
+    },
+    {
+      "text": "choices.",
+      "start": 497.3666789767774,
+      "end": 497.9580820158805
+    },
+    {
+      "text": "But some Robinhood customers could sell",
+      "start": 497.9580820158805,
+      "end": 500.0897121344913
+    },
+    {
+      "text": "a position while being blocked from",
+      "start": 500.0897121344913,
+      "end": 502.0081792412411
+    },
+    {
+      "text": "adding to it.",
+      "start": 502.0081792412411,
+      "end": 502.8327116502846
+    },
+    {
+      "text": "The app made that difference painfully",
+      "start": 502.8327116502846,
+      "end": 504.80627169307235
+    },
+    {
+      "text": "visible.",
+      "start": 504.80627169307235,
+      "end": 505.34285714285716
+    },
+    {
+      "text": "Robinhood later moved from blocking",
+      "start": 506.0,
+      "end": 507.8219266512707
+    },
+    {
+      "text": "purchases to limiting how many shares",
+      "start": 507.8219266512707,
+      "end": 509.7450714498342
+    },
+    {
+      "text": "customers could buy.",
+      "start": 509.7450714498342,
+      "end": 510.868797035712
+    },
+    {
+      "text": "The restrictions and limits ran into",
+      "start": 510.868797035712,
+      "end": 512.7120966735303
+    },
+    {
+      "text": "early February.",
+      "start": 512.7120966735303,
+      "end": 513.5709244234332
+    },
+    {
+      "text": "The distinction matters.",
+      "start": 513.5709244234332,
+      "end": 514.8011294959433
+    },
+    {
+      "text": "A broker's purchase limit changes who",
+      "start": 514.8011294959433,
+      "end": 516.6796736658719
+    },
+    {
+      "text": "can place an order through that broker",
+      "start": 516.6796736658719,
+      "end": 518.6076532086931
+    },
+    {
+      "text": "while trading continues elsewhere.",
+      "start": 518.6076532086931,
+      "end": 520.4
+    },
+    {
+      "text": "The peak didn't hold.",
+      "start": 522.0,
+      "end": 523.5160067893547
+    },
+    {
+      "text": "By February third, GameStop was below a",
+      "start": 523.5160067893547,
+      "end": 525.9834006357148
+    },
+    {
+      "text": "hundred dollars.",
+      "start": 525.9834006357148,
+      "end": 527.0991844862112
+    },
+    {
+      "text": "By February nineteenth, it had fallen as",
+      "start": 527.0991844862112,
+      "end": 529.6385800731216
+    },
+    {
+      "text": "low as forty dollars and fifty-nine",
+      "start": 529.6385800731216,
+      "end": 531.8682932713842
+    },
+    {
+      "text": "cents.",
+      "start": 531.8682932713842,
+      "end": 532.3687384497138
+    },
+    {
+      "text": "Anyone who bought near the top and held",
+      "start": 532.3687384497138,
+      "end": 534.4111824324845
+    },
+    {
+      "text": "through that decline saw a very",
+      "start": 534.4111824324845,
+      "end": 536.0451376187011
+    },
+    {
+      "text": "different outcome from an early buyer.",
+      "start": 536.0451376187011,
+      "end": 538.1142857142858
+    },
+    {
+      "text": "Imagine two people selling at forty",
+      "start": 540.0,
+      "end": 542.244124021637
+    },
+    {
+      "text": "dollars.",
+      "start": 542.244124021637,
+      "end": 542.8695586117205
+    },
+    {
+      "text": "The first bought at twenty and made",
+      "start": 542.8695586117205,
+      "end": 544.9320755987111
+    },
+    {
+      "text": "twenty dollars on each share before",
+      "start": 544.9320755987111,
+      "end": 546.9945925857016
+    },
+    {
+      "text": "costs.",
+      "start": 546.9945925857016,
+      "end": 547.4650857799196
+    },
+    {
+      "text": "The second bought at four hundred and",
+      "start": 547.4650857799196,
+      "end": 549.4380777199877
+    },
+    {
+      "text": "lost three hundred and sixty.",
+      "start": 549.4380777199877,
+      "end": 551.0705224583559
+    },
+    {
+      "text": "The same exit price can tell two",
+      "start": 551.0705224583559,
+      "end": 553.0205993351524
+    },
+    {
+      "text": "entirely different stories.",
+      "start": 553.0205993351524,
+      "end": 554.7428571428571
+    },
+    {
+      "text": "On February eighteenth, a House",
+      "start": 556.0,
+      "end": 557.609126884753
+    },
+    {
+      "text": "committee held a hearing.",
+      "start": 557.609126884753,
+      "end": 558.986394740373
+    },
+    {
+      "text": "Keith Gill, Robinhood's chief executive,",
+      "start": 558.986394740373,
+      "end": 561.1809759410537
+    },
+    {
+      "text": "Reddit's chief executive, and",
+      "start": 561.1809759410537,
+      "end": 562.786767063503
+    },
+    {
+      "text": "representatives of major funds were",
+      "start": 562.786767063503,
+      "end": 564.7137164104423
+    },
+    {
+      "text": "among the witnesses.",
+      "start": 564.7137164104423,
+      "end": 565.904381302315
+    },
+    {
+      "text": "The questions shifted from who was",
+      "start": 565.904381302315,
+      "end": 567.5689665493502
+    },
+    {
+      "text": "winning to how brokers and markets had",
+      "start": 567.5689665493502,
+      "end": 569.4237901103324
+    },
+    {
+      "text": "handled the surge.",
+      "start": 569.4237901103324,
+      "end": 570.4
+    },
+    {
+      "text": "The later SEC staff report put two",
+      "start": 572.0,
+      "end": 574.2867968406573
+    },
+    {
+      "text": "pieces beside each other.",
+      "start": 574.2867968406573,
+      "end": 576.0469635184655
+    },
+    {
+      "text": "Some short sellers buying to cover",
+      "start": 576.0469635184655,
+      "end": 577.9033831867711
+    },
+    {
+      "text": "helped drive the price during parts of",
+      "start": 577.9033831867711,
+      "end": 579.9719651028829
+    },
+    {
+      "text": "the rally.",
+      "start": 579.9719651028829,
+      "end": 580.6291110854518
+    },
+    {
+      "text": "Broader buying was more important to",
+      "start": 580.6291110854518,
+      "end": 582.7912939932429
+    },
+    {
+      "text": "keeping it elevated over weeks.",
+      "start": 582.7912939932429,
+      "end": 584.7295930087694
+    },
+    {
+      "text": "Both pieces belong in the story.",
+      "start": 584.7295930087694,
+      "end": 586.7428571428571
+    },
+    {
+      "text": "One detail makes old charts look",
+      "start": 588.0,
+      "end": 589.9892257338314
+    },
+    {
+      "text": "confusing.",
+      "start": 589.9892257338314,
+      "end": 590.7254634097536
+    },
+    {
+      "text": "GameStop split its stock four for one in",
+      "start": 590.7254634097536,
+      "end": 593.2511084431834
+    },
+    {
+      "text": "twenty twenty-two.",
+      "start": 593.2511084431834,
+      "end": 594.493370212961
+    },
+    {
+      "text": "Some charts adjust the old prices for",
+      "start": 594.493370212961,
+      "end": 596.7547766478501
+    },
+    {
+      "text": "that split.",
+      "start": 596.7547766478501,
+      "end": 597.5428362990584
+    },
+    {
+      "text": "The twenty and the four hundred and",
+      "start": 597.5428362990584,
+      "end": 599.4902332546133
+    },
+    {
+      "text": "eighty-three you've seen here use the",
+      "start": 599.4902332546133,
+      "end": 601.5458189299211
+    },
+    {
+      "text": "prices quoted at the time.",
+      "start": 601.5458189299211,
+      "end": 603.0857142857143
+    },
+    {
+      "text": "Start at the lending desk.",
+      "start": 604.0,
+      "end": 606.020610714299
+    },
+    {
+      "text": "A share can pass from a lender to a",
+      "start": 606.020610714299,
+      "end": 608.5508436693202
+    },
+    {
+      "text": "short seller to a new owner.",
+      "start": 608.5508436693202,
+      "end": 610.6677880392494
+    },
+    {
+      "text": "That new owner can lend it again.",
+      "start": 610.6677880392494,
+      "end": 612.6412149222194
+    },
+    {
+      "text": "Count the open short positions and",
+      "start": 612.6412149222194,
+      "end": 614.8038071914683
+    },
+    {
+      "text": "compare them with the public float.",
+      "start": 614.8038071914683,
+      "end": 617.11538486563
+    },
+    {
+      "text": "That's how the ratio could exceed a",
+      "start": 617.11538486563,
+      "end": 619.3257658871224
+    },
+    {
+      "text": "hundred percent.",
+      "start": 619.3257658871224,
+      "end": 620.4571428571429
+    },
+    {
+      "text": "Then go to the exchange.",
+      "start": 622.0,
+      "end": 623.7746233741929
+    },
+    {
+      "text": "Someone sells a borrowed share,",
+      "start": 623.7746233741929,
+      "end": 625.7841342824855
+    },
+    {
+      "text": "expecting to replace it for less.",
+      "start": 625.7841342824855,
+      "end": 627.9925891269767
+    },
+    {
+      "text": "If the price rises and the seller wants",
+      "start": 627.9925891269767,
+      "end": 630.5541870935111
+    },
+    {
+      "text": "out, closing means placing a buy order.",
+      "start": 630.5541870935111,
+      "end": 633.1878918311967
+    },
+    {
+      "text": "Enough of those orders can push the",
+      "start": 633.1878918311967,
+      "end": 635.2413773743801
+    },
+    {
+      "text": "price up again and put the next short",
+      "start": 635.2413773743801,
+      "end": 637.4089454477402
+    },
+    {
+      "text": "seller under pressure.",
+      "start": 637.4089454477402,
+      "end": 638.8
+    },
+    {
+      "text": "Now go behind the app.",
+      "start": 640.0,
+      "end": 641.4826805686699
+    },
+    {
+      "text": "The short seller's obligation to return",
+      "start": 641.4826805686699,
+      "end": 643.731433391971
+    },
+    {
+      "text": "a share is one part of the system.",
+      "start": 643.731433391971,
+      "end": 645.7645031547389
+    },
+    {
+      "text": "A broker's obligation to complete its",
+      "start": 645.7645031547389,
+      "end": 647.9929314293054
+    },
+    {
+      "text": "customers' trades is another.",
+      "start": 647.9929314293054,
+      "end": 649.8152039228576
+    },
+    {
+      "text": "As unsettled trades grow riskier, the",
+      "start": 649.8152039228576,
+      "end": 651.9190475679758
+    },
+    {
+      "text": "clearinghouse can ask that broker for a",
+      "start": 651.9190475679758,
+      "end": 654.133619825995
+    },
+    {
+      "text": "larger deposit.",
+      "start": 654.133619825995,
+      "end": 655.0857142857143
+    },
+    {
+      "text": "That's what makes the frozen buy button",
+      "start": 657.0,
+      "end": 659.3059672455511
+    },
+    {
+      "text": "such a revealing image.",
+      "start": 659.3059672455511,
+      "end": 660.7695133125005
+    },
+    {
+      "text": "A trader could see a stock, a quote, and",
+      "start": 660.7695133125005,
+      "end": 663.4886998625099
+    },
+    {
+      "text": "a sell button on one screen.",
+      "start": 663.4886998625099,
+      "end": 665.4833202120543
+    },
+    {
+      "text": "The rule that changed the buy button",
+      "start": 665.4833202120543,
+      "end": 667.677786536801
+    },
+    {
+      "text": "came from decisions and obligations",
+      "start": 667.677786536801,
+      "end": 669.8129429608789
+    },
+    {
+      "text": "several steps away from that screen.",
+      "start": 669.8129429608789,
+      "end": 672.0857142857143
+    },
+    {
+      "text": "The story began with a retailer in a",
+      "start": 673.0,
+      "end": 675.1655244394912
+    },
+    {
+      "text": "mall and a debate about its future.",
+      "start": 675.1655244394912,
+      "end": 677.3457351273132
+    },
+    {
+      "text": "It ended up testing how short positions,",
+      "start": 677.3457351273132,
+      "end": 679.7495630401232
+    },
+    {
+      "text": "online demand, and brokerage funding",
+      "start": 679.7495630401232,
+      "end": 681.9188711565616
+    },
+    {
+      "text": "interact under pressure.",
+      "start": 681.9188711565616,
+      "end": 683.4577315582305
+    },
+    {
+      "text": "Follow the borrowed share, the buy",
+      "start": 683.4577315582305,
+      "end": 685.4207507687677
+    },
+    {
+      "text": "order, and the collateral.",
+      "start": 685.4207507687677,
+      "end": 687.0107352343198
+    },
+    {
+      "text": "The path from twenty dollars to four",
+      "start": 687.0107352343198,
+      "end": 689.0630016105224
+    },
+    {
+      "text": "hundred and eighty-three makes a lot",
+      "start": 689.0630016105224,
+      "end": 691.115267986725
+    },
+    {
+      "text": "more sense.",
+      "start": 691.115267986725,
+      "end": 691.8571428571429
+    }
+  ],
+  "audio": "/projects/gamestop-short-squeeze/mix.mp3"
+}

@@ -1,0 +1,353 @@
+{
+  "id": "short-squeeze-revised-vertical",
+  "title": "The Anatomy of a Short Squeeze",
+  "summary": "A 96-second animated cut follows a short seller from a share loan to the margin call and buyback that close his trade.",
+  "sources": [
+    "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-51",
+    "https://www.finra.org/rules-guidance/rulebooks/finra-rules/4210",
+    "https://www.sec.gov/files/staff-report-equity-options-market-struction-conditions-early-2021.pdf#page=22",
+    "https://www.sec.gov/files/staff-report-equity-options-market-struction-conditions-early-2021.pdf#page=27"
+  ],
+  "aspect": "9:16",
+  "duration": 96,
+  "voice": "piper",
+  "createdAt": "2026-11-11T14:38:16.216Z",
+  "scenes": [
+    {
+      "kind": "film",
+      "shot": "squeeze-cut/opening",
+      "label": "The call",
+      "headline": "At midnight, the phone lights up",
+      "seconds": 6,
+      "narration": "At midnight, his broker calls. A trade meant to make money is eating through his cash.",
+      "start": 0
+    },
+    {
+      "kind": "film",
+      "shot": "squeeze-cut/borrow",
+      "label": "The loan",
+      "headline": "Borrow one share",
+      "seconds": 8,
+      "narration": "Earlier that day, he borrowed one share. He can sell it right away. But he still owes the lender a share.",
+      "start": 6
+    },
+    {
+      "kind": "film",
+      "shot": "squeeze-cut/sell",
+      "label": "The sale",
+      "headline": "Sell it for $20",
+      "seconds": 8,
+      "narration": "He sells it for twenty dollars. If the stock falls, he can buy it back for less and keep the difference.",
+      "start": 14
+    },
+    {
+      "kind": "film",
+      "shot": "squeeze-cut/price",
+      "label": "The price rises",
+      "headline": "Buyers bid it up to $50",
+      "seconds": 7,
+      "narration": "Instead, buyers pile in. The stock was twenty dollars. Now someone is willing to pay fifty.",
+      "start": 22
+    },
+    {
+      "kind": "film",
+      "shot": "squeeze-cut/loss",
+      "label": "The loss",
+      "headline": "Selling at $20 and buying at $50",
+      "seconds": 9,
+      "narration": "He sold for twenty. Buying back one share now costs fifty. That's a thirty-dollar loss if he closes here, before fees.",
+      "start": 29
+    },
+    {
+      "kind": "film",
+      "shot": "squeeze-cut/cushion",
+      "label": "The cash cushion",
+      "headline": "The buyback would use all $50",
+      "seconds": 12,
+      "narration": "The broker holds his twenty-dollar sale, plus thirty of his own cash. That's fifty dollars in the account. Buying back the share would use all fifty. His cushion is gone.",
+      "start": 38
+    },
+    {
+      "kind": "film",
+      "shot": "squeeze-cut/margin",
+      "label": "The margin call",
+      "headline": "Add $15 or close the trade",
+      "seconds": 11,
+      "narration": "Here, the broker wants a cushion of thirty percent. At fifty dollars a share, that's fifteen dollars. To stay short, he has to add fifteen. Or he can close the trade.",
+      "start": 50
+    },
+    {
+      "kind": "film",
+      "shot": "squeeze-cut/street",
+      "label": "Back to the exchange",
+      "headline": "He heads back to buy a share",
+      "seconds": 6,
+      "narration": "He can't add the cash. So he heads back to the exchange.",
+      "start": 61
+    },
+    {
+      "kind": "film",
+      "shot": "squeeze-cut/buyback",
+      "label": "The buyback",
+      "headline": "His $50 order is filled",
+      "seconds": 7,
+      "narration": "He buys one share for fifty. Across the room, other short sellers start buying too.",
+      "start": 67
+    },
+    {
+      "kind": "film",
+      "shot": "squeeze-cut/cascade",
+      "label": "The feedback loop",
+      "headline": "More buying pushes up the price",
+      "seconds": 8,
+      "narration": "Their orders can push the price up again. That puts more shorts under pressure to buy. That's the short squeeze.",
+      "start": 74
+    },
+    {
+      "kind": "film",
+      "shot": "squeeze-cut/evidence",
+      "label": "GameStop",
+      "headline": "GameStop's short interest in 2021",
+      "seconds": 8,
+      "narration": "GameStop's short interest topped its public float in twenty twenty-one. The report found that broader buying sustained the rally.",
+      "start": 82
+    },
+    {
+      "kind": "film",
+      "shot": "squeeze-cut/return",
+      "label": "The return",
+      "headline": "The trader returns the share",
+      "seconds": 6,
+      "narration": "He returns the share. His short is closed, and the loss is real.",
+      "start": 90
+    }
+  ],
+  "captions": [
+    {
+      "text": "At midnight, his broker calls.",
+      "start": 0,
+      "end": 2.057193247669438
+    },
+    {
+      "text": "A trade meant to make money is eating",
+      "start": 2.057193247669438,
+      "end": 4.124941936370508
+    },
+    {
+      "text": "through his cash.",
+      "start": 4.124941936370508,
+      "end": 5.172184429327286
+    },
+    {
+      "text": "Earlier that day, he borrowed one share.",
+      "start": 6,
+      "end": 8.521592340639959
+    },
+    {
+      "text": "He can sell it right away.",
+      "start": 8.521592340639959,
+      "end": 9.856386999244142
+    },
+    {
+      "text": "But he still owes the lender a share.",
+      "start": 9.856386999244142,
+      "end": 11.732980599647266
+    },
+    {
+      "text": "He sells it for twenty dollars.",
+      "start": 14,
+      "end": 15.889493575207862
+    },
+    {
+      "text": "If the stock falls, he can buy it back",
+      "start": 15.889493575207862,
+      "end": 17.992726967330142
+    },
+    {
+      "text": "for less and keep the difference.",
+      "start": 17.992726967330142,
+      "end": 19.89458301839254
+    },
+    {
+      "text": "Instead, buyers pile in.",
+      "start": 22,
+      "end": 24.05719324766944
+    },
+    {
+      "text": "The stock was twenty dollars.",
+      "start": 24.05719324766944,
+      "end": 25.649987402368353
+    },
+    {
+      "text": "Now someone is willing to pay fifty.",
+      "start": 25.649987402368353,
+      "end": 27.91358024691358
+    },
+    {
+      "text": "He sold for twenty.",
+      "start": 29,
+      "end": 30.244494834971025
+    },
+    {
+      "text": "Buying back one share now costs fifty.",
+      "start": 30.244494834971025,
+      "end": 32.895086923658354
+    },
+    {
+      "text": "That's a thirty-dollar loss if he closes",
+      "start": 32.895086923658354,
+      "end": 35.42304469810523
+    },
+    {
+      "text": "here, before fees.",
+      "start": 35.42304469810523,
+      "end": 36.65507684555303
+    },
+    {
+      "text": "The broker holds his twenty-dollar sale,",
+      "start": 38,
+      "end": 40.39154315510423
+    },
+    {
+      "text": "plus thirty of his own cash.",
+      "start": 40.39154315510423,
+      "end": 42.14698916603678
+    },
+    {
+      "text": "That's fifty dollars in the account.",
+      "start": 42.14698916603678,
+      "end": 44.010682791635176
+    },
+    {
+      "text": "Buying back the share would use all",
+      "start": 44.010682791635176,
+      "end": 45.890393406039664
+    },
+    {
+      "text": "fifty.",
+      "start": 45.890393406039664,
+      "end": 46.32587553539935
+    },
+    {
+      "text": "His cushion is gone.",
+      "start": 46.32587553539935,
+      "end": 47.73807004283195
+    },
+    {
+      "text": "Here, the broker wants a cushion of",
+      "start": 50,
+      "end": 51.86670223645014
+    },
+    {
+      "text": "thirty percent.",
+      "start": 51.86670223645014,
+      "end": 52.76669186192996
+    },
+    {
+      "text": "At fifty dollars a share, that's fifteen",
+      "start": 52.76669186192996,
+      "end": 55.206103423984864
+    },
+    {
+      "text": "dollars.",
+      "start": 55.206103423984864,
+      "end": 55.804283194759385
+    },
+    {
+      "text": "To stay short, he has to add fifteen.",
+      "start": 55.804283194759385,
+      "end": 58.26137566137566
+    },
+    {
+      "text": "Or he can close the trade.",
+      "start": 58.26137566137566,
+      "end": 59.78966994205089
+    },
+    {
+      "text": "He can't add the cash.",
+      "start": 61,
+      "end": 62.38639455782313
+    },
+    {
+      "text": "So he heads back to the exchange.",
+      "start": 62.38639455782313,
+      "end": 64.35328798185941
+    },
+    {
+      "text": "He buys one share for fifty.",
+      "start": 67,
+      "end": 68.83789367598891
+    },
+    {
+      "text": "Across the room, other short sellers",
+      "start": 68.83789367598891,
+      "end": 71.25974450136708
+    },
+    {
+      "text": "start buying too.",
+      "start": 71.25974450136708,
+      "end": 72.49468379944571
+    },
+    {
+      "text": "Their orders can push the price up",
+      "start": 74,
+      "end": 75.76194777820794
+    },
+    {
+      "text": "again.",
+      "start": 75.76194777820794,
+      "end": 76.18619299571681
+    },
+    {
+      "text": "That puts more shorts under pressure to",
+      "start": 76.18619299571681,
+      "end": 78.25018896447467
+    },
+    {
+      "text": "buy.",
+      "start": 78.25018896447467,
+      "end": 78.5787855883094
+    },
+    {
+      "text": "That's the short squeeze.",
+      "start": 78.5787855883094,
+      "end": 79.86198034769464
+    },
+    {
+      "text": "GameStop's short interest topped its",
+      "start": 82,
+      "end": 84.03692419064653
+    },
+    {
+      "text": "public float in twenty twenty-one.",
+      "start": 84.03692419064653,
+      "end": 86.03088939279415
+    },
+    {
+      "text": "The report found that broader buying",
+      "start": 86.03088939279415,
+      "end": 87.78935964249247
+    },
+    {
+      "text": "sustained the rally.",
+      "start": 87.78935964249247,
+      "end": 88.86208112874779
+    },
+    {
+      "text": "He returns the share.",
+      "start": 90,
+      "end": 91.24449483497102
+    },
+    {
+      "text": "His short is closed, and the loss is",
+      "start": 91.24449483497102,
+      "end": 93.35824784940431
+    },
+    {
+      "text": "real.",
+      "start": 93.35824784940431,
+      "end": 93.76608717561099
+    }
+  ],
+  "audio": "/projects/short-squeeze-revised-vertical/mix.mp3"
+}

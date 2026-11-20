@@ -1,0 +1,403 @@
+{
+  "title": "The GameStop Short Squeeze — How a $20 Stock Hit $483",
+  "aspect": "16:9",
+  "duration": 693,
+  "narrationTempo": 0.8,
+  "summary": "The 2021 GameStop rally, the lending chain that made the stock vulnerable to a squeeze, and the clearing deposits behind the buy restrictions. Historical prices use the quotes at the time.",
+  "sources": [
+    "https://www.sec.gov/files/staff-report-equity-options-market-struction-conditions-early-2021.pdf",
+    "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-51",
+    "https://www.sec.gov/Archives/edgar/data/1326380/000132638021000032/gme-20210130.htm",
+    "https://www.sec.gov/Archives/edgar/data/1326380/000132638021000030/a991q4fy20earningsrelease.htm",
+    "https://financialservices.house.gov/calendar/eventsingle.aspx?EventID=407880",
+    "https://www.sec.gov/Archives/edgar/data/1783879/000178387922000044/hood-20211231.htm",
+    "https://www.sec.gov/Archives/edgar/data/1326380/000132638022000100/a991-stocksplitannouncement.htm"
+  ],
+  "score": "assets/gamestop-score.mp3",
+  "scenes": [
+    {
+      "kind": "film",
+      "shot": "gamestop/opening",
+      "label": "MM_001",
+      "headline": "The $483 mystery",
+      "seconds": 10,
+      "narration": "January 28th, 2021. A stock belonging to a struggling video game retailer briefly touches four hundred and eighty-three dollars."
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/milestones",
+      "label": "MM_002",
+      "headline": "From $20 to $483",
+      "seconds": 5,
+      "narration": "Just weeks earlier, it had been trading around twenty."
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/two-sides",
+      "label": "MM_003",
+      "headline": "Two sides of the same trade",
+      "seconds": 10,
+      "narration": "People on the internet are celebrating. Hedge funds are taking enormous losses. And everyone is watching the same green line climb higher and higher."
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/restriction",
+      "label": "MM_004",
+      "headline": "The buy button disappears",
+      "seconds": 14,
+      "narration": "Then, something extraordinary happens. On Robinhood, one of the apps used by the very traders driving the frenzy, customers can no longer buy GameStop shares. They can sell. But they cannot buy."
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/rewind",
+      "label": "MM_005",
+      "headline": "What really happened?",
+      "seconds": 24,
+      "narration": "Imagine watching a financial battle unfold, only to discover that your trading app has changed what you're allowed to do. Was this ordinary people defeating Wall Street? Was the system protecting itself? Or was the real story more complicated than either side wanted to admit? To understand that day, we have to go back to a company that much of Wall Street believed was running out of time."
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/store",
+      "label": "MM_006",
+      "headline": "The GameStop store",
+      "seconds": 7,
+      "narration": "GameStop was once a familiar stop for gamers in American shopping malls."
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/shop",
+      "label": "MM_007",
+      "headline": "The physical game era",
+      "seconds": 9,
+      "narration": "You walked in, browsed the shelves, traded in used games, and left carrying a physical copy of something you couldn't wait to play."
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/download",
+      "label": "MM_008",
+      "headline": "The industry goes digital",
+      "seconds": 10,
+      "narration": "But the industry was changing. More customers were downloading games instead of buying discs. Online shopping kept growing."
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/shutters",
+      "label": "MM_009",
+      "headline": "A business under pressure",
+      "seconds": 13,
+      "narration": "And during the pandemic, physical stores faced another enormous challenge. To many professional investors, the business looked like a company from the past trying to survive in the future."
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/theses",
+      "label": "MM_010",
+      "headline": "Two investment theses",
+      "seconds": 21,
+      "narration": "Some believed GameStop could turn things around. Others thought the stock price had much further to fall. And some of those pessimists weren't simply avoiding the stock. They were actively betting against it. That's where this story stops being about video games and starts being about one of the strangest mechanisms in financial markets."
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/long",
+      "label": "MM_011",
+      "headline": "Buying a share",
+      "seconds": 10,
+      "narration": "Most people understand buying a stock. You pay twenty dollars for a share, and if the price rises to thirty, you make ten dollars before costs."
+    },
+    {
+      "kind": "film",
+      "shot": "squeeze-cut/borrow",
+      "label": "MM_012",
+      "headline": "Borrowing a share",
+      "seconds": 8,
+      "narration": "Short selling turns that idea upside down. Imagine you borrow a share of a company from someone who owns it."
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/profit",
+      "label": "MM_013",
+      "headline": "Sell at $20, buy back at $10",
+      "seconds": 17,
+      "narration": "You immediately sell that borrowed share for twenty dollars. You are hoping the price will fall. If it drops to ten dollars, you buy a share back for ten, return it to the lender, and keep the difference, minus fees and borrowing costs. Simple enough."
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/loss",
+      "label": "MM_014",
+      "headline": "What if the stock rises?",
+      "seconds": 14,
+      "narration": "But what if the stock doesn't fall? What if it rises to fifty dollars? Or one hundred? You still owe the lender a share. And buying that share back now costs you far more than you originally received."
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/ceiling",
+      "label": "MM_015",
+      "headline": "Losses without a ceiling",
+      "seconds": 20,
+      "narration": "If you bought a stock for twenty dollars, the most you could lose on the share itself is twenty. But if you shorted it at twenty and it climbs to two hundred, your loss is one hundred and eighty dollars, before costs. And theoretically, there is no ceiling on how high that price can go."
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/rush",
+      "label": "MM_016",
+      "headline": "The rush to close",
+      "seconds": 9,
+      "narration": "Now imagine hundreds of investors trying to escape that bet at once. To close their short positions, they must buy shares."
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/squeeze",
+      "label": "MM_017",
+      "headline": "The short squeeze",
+      "seconds": 13,
+      "narration": "That buying can push the price higher, forcing more short sellers to buy, pushing it higher again. That's a short squeeze. And GameStop was sitting on the ingredients for an unusually explosive one."
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/float",
+      "label": "MM_018",
+      "headline": "Short interest reaches 122.97%",
+      "seconds": 14,
+      "narration": "Here is the number that caught traders' attention: GameStop's reported short interest reached roughly one hundred and twenty-three percent of the shares available for public trading in January 2021."
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/relend-first",
+      "label": "MM_019",
+      "headline": "One share, more than one short",
+      "seconds": 6,
+      "narration": "Wait. How can more than one hundred percent of the available shares be sold short?"
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/relend-second",
+      "label": "MM_020",
+      "headline": "The lending chain",
+      "seconds": 15,
+      "narration": "Because a share sold by one short seller can be bought by another investor and then lent out again. That creates another short position linked to the chain of lending. It doesn't automatically mean somebody invented fake shares."
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/vulnerability",
+      "label": "MM_021",
+      "headline": "The hidden vulnerability",
+      "seconds": 12,
+      "narration": "But it does mean an extraordinary amount of money was positioned for the stock to fall. And that's dangerous when the crowd suddenly decides it should rise instead."
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/spark",
+      "label": "MM_022",
+      "headline": "All it needed was a spark",
+      "seconds": 15,
+      "narration": "The problem for those short sellers wasn't only that GameStop could become more valuable. It was that the act of getting out of their losing trade could help make the trade even worse. All this situation needed was a spark."
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/gill",
+      "label": "MM_023",
+      "headline": "Enter Roaring Kitty",
+      "seconds": 10,
+      "narration": "One person following GameStop closely was Keith Gill. Online, he became known as Roaring Kitty on YouTube and DeepFuckingValue on Reddit."
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/thesis",
+      "label": "MM_024",
+      "headline": "Gill shares his thesis",
+      "seconds": 21,
+      "narration": "Long before GameStop became a headline, Gill had publicly argued that the market was underestimating the company. He had shared his investment thesis and his position in the stock. His argument wasn't simply \"let's attack hedge funds.\" He saw a business that, in his view, might be worth more than the market believed."
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/cohen",
+      "label": "MM_025",
+      "headline": "Ryan Cohen joins the board",
+      "seconds": 17,
+      "narration": "Then came another reason for optimism. Ryan Cohen, the co-founder of online pet retailer Chewy, had built a stake in GameStop and joined its board in January 2021. Investors began imagining a digital turnaround."
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/forum",
+      "label": "MM_026",
+      "headline": "WallStreetBets picks up the story",
+      "seconds": 20,
+      "narration": "On Reddit's WallStreetBets forum, discussions about GameStop grew louder. Some users studied the financial numbers. Some wanted to make money. Some hated the idea of hedge funds profiting from a company's decline. And some were simply swept up in the joke, the memes, and the momentum."
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/attention",
+      "label": "MM_027",
+      "headline": "The price begins to move",
+      "seconds": 10,
+      "narration": "There wasn't one perfectly organized army with a single plan. But suddenly, huge numbers of people were watching the same stock. And the price began to move."
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/jan13",
+      "label": "MM_028",
+      "headline": "The first big jump",
+      "seconds": 17,
+      "narration": "On January thirteenth, the stock closed at thirty-one dollars and forty cents. The price had jumped, but another number was even more striking. About a hundred and forty-four million GameStop shares traded that day, up from roughly seven million the day before."
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/jan22",
+      "label": "MM_029",
+      "headline": "Seventy-two dollars in hours",
+      "seconds": 15,
+      "narration": "On January twenty-second, the price went from forty-three to seventy-two dollars in about three hours. Traders watched the bids move in real time. A seller who had counted on buying back at twenty now had a very different problem."
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/accounts",
+      "label": "MM_030",
+      "headline": "Nearly 900,000 accounts",
+      "seconds": 15,
+      "narration": "At the start of January, fewer than ten thousand individual accounts were trading GameStop on a given day. By January twenty-seventh, it was nearly nine hundred thousand. And individuals weren't the only participants. Institutions traded it too."
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/peak",
+      "label": "MM_031",
+      "headline": "A close and an intraday peak",
+      "seconds": 17,
+      "narration": "GameStop closed January twenty-seventh at three hundred and forty-seven dollars and fifty-one cents. The next day it touched four hundred and eighty-three during trading. That's the peak we started with. It was a price someone paid during the session, not the closing price."
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/report-cover",
+      "label": "MM_032",
+      "headline": "What the SEC found",
+      "seconds": 17,
+      "narration": "Short sellers did buy shares to exit, and in some stretches their orders mattered. But SEC staff found those purchases made up a small share of total buying. Wider enthusiasm for GameStop kept demand going after the effects of short covering had faded."
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/receipt",
+      "label": "MM_033",
+      "headline": "A fill is only the first step",
+      "seconds": 14,
+      "narration": "Now go back to that phone. A trade confirmation tells you the order was filled. Behind the screen, the money and shares still have to change hands. In January twenty twenty-one, that generally took two business days."
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/clearing",
+      "label": "MM_034",
+      "headline": "Who stands between the brokers?",
+      "seconds": 14,
+      "narration": "The National Securities Clearing Corporation stands between member brokers. Think of a buyer on one side, a seller on the other, and the clearinghouse in the middle. It helps make sure each side receives what it is owed."
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/unsettled",
+      "label": "MM_035",
+      "headline": "Why the interval creates risk",
+      "seconds": 15,
+      "narration": "The price can move sharply between the trade and settlement. If a broker fails before the trade is settled, someone still has to make good on it. The clearinghouse manages that risk by requiring its member brokers to put up collateral."
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/deposit",
+      "label": "MM_036",
+      "headline": "The collateral demand rises",
+      "seconds": 15,
+      "narration": "When trading gets volatile and unsettled positions pile up, those requirements can rise. Robinhood said higher deposit requirements from its clearinghouse led it to restrict purchases in GameStop and other stocks. The collateral demand was on its clearing broker."
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/restricted-again",
+      "label": "MM_037",
+      "headline": "Buy disabled, sell available",
+      "seconds": 13,
+      "narration": "So the same stock was still trading, and other brokers could make different choices. But some Robinhood customers could sell a position while being blocked from adding to it. The app made that difference painfully visible."
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/limits",
+      "label": "MM_038",
+      "headline": "Restrictions ease",
+      "seconds": 16,
+      "narration": "Robinhood later moved from blocking purchases to limiting how many shares customers could buy. The restrictions and limits ran into early February. The distinction matters. A broker's purchase limit changes who can place an order through that broker while trading continues elsewhere."
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/drop",
+      "label": "MM_039",
+      "headline": "From the peak back below $100",
+      "seconds": 18,
+      "narration": "The peak didn't hold. By February third, GameStop was below a hundred dollars. By February nineteenth, it had fallen as low as forty dollars and fifty-nine cents. Anyone who bought near the top and held through that decline saw a very different outcome from an early buyer."
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/two-receipts",
+      "label": "MM_040",
+      "headline": "One stock, two outcomes",
+      "seconds": 16,
+      "narration": "Imagine two people selling at forty dollars. The first bought at twenty and made twenty dollars on each share before costs. The second bought at four hundred and lost three hundred and sixty. The same exit price can tell two entirely different stories."
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/hearing",
+      "label": "MM_041",
+      "headline": "The story reaches Congress",
+      "seconds": 16,
+      "narration": "On February eighteenth, a House committee held a hearing. Keith Gill, Robinhood's chief executive, Reddit's chief executive, and representatives of major funds were among the witnesses. The questions shifted from who was winning to how brokers and markets had handled the surge."
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/sec-file",
+      "label": "MM_042",
+      "headline": "Separate the mechanism from the story",
+      "seconds": 16,
+      "narration": "The later SEC staff report put two pieces beside each other. Some short sellers buying to cover helped drive the price during parts of the rally. Broader buying was more important to keeping it elevated over weeks. Both pieces belong in the story."
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/split",
+      "label": "MM_043",
+      "headline": "Why historical chart prices differ",
+      "seconds": 16,
+      "narration": "One detail makes old charts look confusing. GameStop split its stock four for one in twenty twenty-two. Some charts adjust the old prices for that split. The twenty and the four hundred and eighty-three you've seen here use the prices quoted at the time."
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/recap-loan",
+      "label": "MM_044",
+      "headline": "The position was already crowded",
+      "seconds": 18,
+      "narration": "Start at the lending desk. A share can pass from a lender to a short seller to a new owner. That new owner can lend it again. Count the open short positions and compare them with the public float. That's how the ratio could exceed a hundred percent."
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/recap-bids",
+      "label": "MM_045",
+      "headline": "Getting out can lift the price",
+      "seconds": 18,
+      "narration": "Then go to the exchange. Someone sells a borrowed share, expecting to replace it for less. If the price rises and the seller wants out, closing means placing a buy order. Enough of those orders can push the price up again and put the next short seller under pressure."
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/recap-clearing",
+      "label": "MM_046",
+      "headline": "A second kind of collateral",
+      "seconds": 17,
+      "narration": "Now go behind the app. The short seller's obligation to return a share is one part of the system. A broker's obligation to complete its customers' trades is another. As unsettled trades grow riskier, the clearinghouse can ask that broker for a larger deposit."
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/recap-phone",
+      "label": "MM_047",
+      "headline": "What the phone was showing",
+      "seconds": 16,
+      "narration": "That's what makes the frozen buy button such a revealing image. A trader could see a stock, a quote, and a sell button on one screen. The rule that changed the buy button came from decisions and obligations several steps away from that screen."
+    },
+    {
+      "kind": "film",
+      "shot": "gamestop/end",
+      "label": "MM_048",
+      "headline": "From a game store to market plumbing",
+      "seconds": 20,
+      "narration": "The story began with a retailer in a mall and a debate about its future. It ended up testing how short positions, online demand, and brokerage funding interact under pressure. Follow the borrowed share, the buy order, and the collateral. The path from twenty dollars to four hundred and eighty-three makes a lot more sense."
+    }
+  ]
+}

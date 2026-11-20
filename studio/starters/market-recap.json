@@ -1,0 +1,36 @@
+{
+  "title": "A Split Session",
+  "aspect": "16:9",
+  "summary": "A fictional trading session shows how a flat index can hide a sharp split between sectors.",
+  "scenes": [
+    {
+      "kind": "series",
+      "label": "Market recap",
+      "headline": "A flat finish hides a swing",
+      "detail": "Illustrative broad index, rebased to 100 at the open",
+      "values": [100, 100.4, 101, 100.7, 99.9, 99.3, 99.6, 100],
+      "startLabel": "OPEN · 100",
+      "endLabel": "CLOSE · 100",
+      "seconds": 8,
+      "narration": "In this simulated session, the broad index starts at one hundred, swings in both directions, and closes where it opened."
+    },
+    {
+      "kind": "metric",
+      "label": "Sector moves",
+      "headline": "Two sectors, opposite directions",
+      "detail": "Illustrative moves from open to close",
+      "metrics": [{"value": "+2%", "label": "Technology"}, {"value": "−2%", "label": "Energy"}],
+      "seconds": 8,
+      "narration": "Technology ends the session up two percent while energy falls two percent. The headline index hides that divergence."
+    },
+    {
+      "kind": "metric",
+      "label": "Market breadth",
+      "headline": "How many stocks rose?",
+      "detail": "Illustrative count of index members",
+      "metrics": [{"value": "40", "label": "Advancers"}, {"value": "60", "label": "Decliners"}],
+      "seconds": 8,
+      "narration": "Forty stocks rise and sixty fall. Counting winners and losers adds a view of how broadly the market moved."
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "title": "The Anatomy of a Short Squeeze",
+  "aspect": "16:9",
+  "duration": 60,
+  "summary": "A fictional short seller gets a late-night margin call and races back to the exchange.",
+  "sources": [
+    "https://www.sec.gov/files/staff-report-equity-options-market-struction-conditions-early-2021.pdf#page=22",
+    "https://www.sec.gov/files/staff-report-equity-options-market-struction-conditions-early-2021.pdf#page=27"
+  ],
+  "scenes": [
+    {
+      "kind": "film",
+      "shot": "squeeze/opening",
+      "label": "The call",
+      "headline": "His phone lights up",
+      "seconds": 4.3,
+      "narration": "His phone lights up. Buy the stock back, or put up more cash."
+    },
+    {
+      "kind": "film",
+      "shot": "squeeze/borrow",
+      "label": "Earlier that day",
+      "headline": "A share changes hands",
+      "seconds": 5.7,
+      "narration": "Hours earlier, he borrowed one share from a broker. He has to give it back."
+    },
+    {
+      "kind": "film",
+      "shot": "squeeze/sell",
+      "label": "The sale",
+      "headline": "A buyer pays twenty dollars",
+      "seconds": 5.4,
+      "narration": "He sells it for twenty dollars. The plan is to buy another share for less."
+    },
+    {
+      "kind": "film",
+      "shot": "squeeze/price",
+      "label": "Illustrative trade",
+      "headline": "The exchange fills up",
+      "seconds": 4.7,
+      "narration": "But buyers pile in. Twenty becomes thirty-five. Then fifty."
+    },
+    {
+      "kind": "film",
+      "shot": "squeeze/gap",
+      "label": "The loss",
+      "headline": "Thirty dollars short",
+      "seconds": 5.3,
+      "narration": "To replace that share at fifty, his twenty dollars is thirty short, before fees."
+    },
+    {
+      "kind": "film",
+      "shot": "squeeze/margin",
+      "label": "The margin call",
+      "headline": "The broker calls for collateral",
+      "seconds": 5.7,
+      "narration": "The broker wants more collateral. He can put up the cash, or close the trade."
+    },
+    {
+      "kind": "film",
+      "shot": "squeeze/race",
+      "label": "The run",
+      "headline": "Back to the exchange",
+      "seconds": 4.5,
+      "narration": "He can't post the cash. So he runs to buy a share."
+    },
+    {
+      "kind": "film",
+      "shot": "squeeze/buyback",
+      "label": "The auction",
+      "headline": "A bid at fifty dollars",
+      "seconds": 5.1,
+      "narration": "He buys it back at fifty. Other short sellers are trying to do the same thing."
+    },
+    {
+      "kind": "film",
+      "shot": "squeeze/cascade",
+      "label": "The squeeze",
+      "headline": "One bid sets off the next",
+      "seconds": 7.1,
+      "narration": "Their buy orders can lift the price again. That puts more shorts under pressure, and some of them buy too."
+    },
+    {
+      "kind": "film",
+      "shot": "squeeze/evidence",
+      "label": "GameStop",
+      "headline": "The SEC examines January 2021",
+      "seconds": 7.1,
+      "narration": "In January twenty twenty-one, GameStop short interest topped its public float. The report found broader buying sustained the rally."
+    },
+    {
+      "kind": "film",
+      "shot": "squeeze/return",
+      "label": "The return",
+      "headline": "The share goes back to the broker",
+      "seconds": 5.1,
+      "narration": "When a short seller has to buy, a bet against the stock can help push it up."
+    }
+  ],
+  "score": "assets/squeeze-score.mp3"
+}

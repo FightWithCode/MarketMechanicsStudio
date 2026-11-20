@@ -1,0 +1,34 @@
+{
+  "title": "When Sales Rise and Margins Fall",
+  "aspect": "16:9",
+  "summary": "A fictional retailer sells more but keeps a smaller share of its sales as gross profit.",
+  "scenes": [
+    {
+      "kind": "metric",
+      "label": "Revenue",
+      "headline": "The retailer sells more",
+      "detail": "Illustrative quarterly revenue",
+      "metrics": [{"value": "$100M", "label": "Prior quarter"}, {"value": "$120M", "label": "Current quarter"}],
+      "seconds": 8,
+      "narration": "Our fictional retailer grows quarterly sales from one hundred million dollars to one hundred and twenty million. That's twenty percent growth."
+    },
+    {
+      "kind": "metric",
+      "label": "Cost of goods",
+      "headline": "Inventory costs climb faster",
+      "detail": "Illustrative quarterly cost of goods sold",
+      "metrics": [{"value": "$60M", "label": "Prior quarter"}, {"value": "$78M", "label": "Current quarter"}],
+      "seconds": 8,
+      "narration": "The cost of the goods it sold rises from sixty to seventy-eight million dollars. That's a thirty percent increase."
+    },
+    {
+      "kind": "metric",
+      "label": "Gross margin",
+      "headline": "Five cents less per sales dollar",
+      "detail": "Illustrative gross profit divided by revenue",
+      "metrics": [{"value": "40%", "label": "Prior quarter"}, {"value": "35%", "label": "Current quarter"}],
+      "seconds": 9,
+      "narration": "Gross profit grows from forty to forty-two million dollars. But gross margin falls from forty to thirty-five percent because sales grow faster than gross profit."
+    }
+  ]
+}

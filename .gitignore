@@ -1,0 +1,25 @@
+node_modules/
+dist/
+.studio-tools/
+.env
+*.tmp
+public/projects/*/exports/*
+!/public/projects/short-squeeze-revised-wide/exports/narrated-captioned.mp4
+!/public/projects/short-squeeze-revised-vertical/exports/narrated-captioned.mp4
+/*.mp4
+/hyperframes/
+*.tmp.mp4
+
+/public/projects/.building-*/
+
+# Local/editor/OS files
+.DS_Store
+*.log
+.vscode/
+.idea/
+.env.*
+!.env.example
+
+# Downloaded reference videos
+*.mkv
+*.webm

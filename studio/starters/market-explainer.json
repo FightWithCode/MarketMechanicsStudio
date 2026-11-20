@@ -1,0 +1,34 @@
+{
+  "title": "What the Bid–Ask Spread Costs",
+  "aspect": "16:9",
+  "summary": "An illustrative order book shows the cost of buying and immediately selling one share.",
+  "scenes": [
+    {
+      "kind": "metric",
+      "label": "The quote",
+      "headline": "One stock, two prices",
+      "detail": "Illustrative quote with one share available on each side",
+      "metrics": [{"value": "$19.98", "label": "Best bid"}, {"value": "$20.02", "label": "Best ask"}],
+      "seconds": 9,
+      "narration": "In this example, the highest bid is nineteen dollars and ninety-eight cents. The lowest asking price is twenty dollars and two cents."
+    },
+    {
+      "kind": "metric",
+      "label": "The trade",
+      "headline": "Buy at the ask, sell at the bid",
+      "detail": "Illustrative one-share fills assuming the quote holds",
+      "metrics": [{"value": "$20.02", "label": "Buy one share"}, {"value": "$19.98", "label": "Sell one share"}],
+      "seconds": 8,
+      "narration": "If the quote holds, an immediate buy fills at the ask and an immediate sale fills at the bid."
+    },
+    {
+      "kind": "metric",
+      "label": "The spread",
+      "headline": "Four cents across the spread",
+      "detail": "Illustrative difference before commissions and fees",
+      "metrics": [{"value": "−$0.04", "label": "One-share round trip"}],
+      "seconds": 8,
+      "narration": "The four-cent difference between those fills is the cost of that immediate round trip before commissions or fees."
+    }
+  ]
+}

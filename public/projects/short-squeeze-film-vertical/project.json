@@ -1,0 +1,277 @@
+{
+  "id": "short-squeeze-film-vertical",
+  "title": "The Anatomy of a Short Squeeze",
+  "summary": "A fictional short seller gets a late-night margin call and races back to the exchange.",
+  "sources": [
+    "https://www.sec.gov/files/staff-report-equity-options-market-struction-conditions-early-2021.pdf#page=22",
+    "https://www.sec.gov/files/staff-report-equity-options-market-struction-conditions-early-2021.pdf#page=27"
+  ],
+  "aspect": "9:16",
+  "duration": 60,
+  "voice": "piper",
+  "createdAt": "2026-11-11T12:21:09.280Z",
+  "scenes": [
+    {
+      "kind": "film",
+      "shot": "squeeze/opening",
+      "label": "The call",
+      "headline": "His phone lights up",
+      "seconds": 4.3,
+      "narration": "His phone lights up. Buy the stock back, or put up more cash.",
+      "start": 0
+    },
+    {
+      "kind": "film",
+      "shot": "squeeze/borrow",
+      "label": "Earlier that day",
+      "headline": "A share changes hands",
+      "seconds": 5.7,
+      "narration": "Hours earlier, he borrowed one share from a broker. He has to give it back.",
+      "start": 4.3
+    },
+    {
+      "kind": "film",
+      "shot": "squeeze/sell",
+      "label": "The sale",
+      "headline": "A buyer pays twenty dollars",
+      "seconds": 5.4,
+      "narration": "He sells it for twenty dollars. The plan is to buy another share for less.",
+      "start": 10
+    },
+    {
+      "kind": "film",
+      "shot": "squeeze/price",
+      "label": "Illustrative trade",
+      "headline": "The exchange fills up",
+      "seconds": 4.7,
+      "narration": "But buyers pile in. Twenty becomes thirty-five. Then fifty.",
+      "start": 15.4
+    },
+    {
+      "kind": "film",
+      "shot": "squeeze/gap",
+      "label": "The loss",
+      "headline": "Thirty dollars short",
+      "seconds": 5.3,
+      "narration": "To replace that share at fifty, his twenty dollars is thirty short, before fees.",
+      "start": 20.1
+    },
+    {
+      "kind": "film",
+      "shot": "squeeze/margin",
+      "label": "The margin call",
+      "headline": "The broker calls for collateral",
+      "seconds": 5.7,
+      "narration": "The broker wants more collateral. He can put up the cash, or close the trade.",
+      "start": 25.4
+    },
+    {
+      "kind": "film",
+      "shot": "squeeze/race",
+      "label": "The run",
+      "headline": "Back to the exchange",
+      "seconds": 4.5,
+      "narration": "He can't post the cash. So he runs to buy a share.",
+      "start": 31.1
+    },
+    {
+      "kind": "film",
+      "shot": "squeeze/buyback",
+      "label": "The auction",
+      "headline": "A bid at fifty dollars",
+      "seconds": 5.1,
+      "narration": "He buys it back at fifty. Other short sellers are trying to do the same thing.",
+      "start": 35.6
+    },
+    {
+      "kind": "film",
+      "shot": "squeeze/cascade",
+      "label": "The squeeze",
+      "headline": "One bid sets off the next",
+      "seconds": 7.1,
+      "narration": "Their buy orders can lift the price again. That puts more shorts under pressure, and some of them buy too.",
+      "start": 40.7
+    },
+    {
+      "kind": "film",
+      "shot": "squeeze/evidence",
+      "label": "GameStop",
+      "headline": "The SEC examines January 2021",
+      "seconds": 7.1,
+      "narration": "In January twenty twenty-one, GameStop short interest topped its public float. The report found broader buying sustained the rally.",
+      "start": 47.8
+    },
+    {
+      "kind": "film",
+      "shot": "squeeze/return",
+      "label": "The return",
+      "headline": "The share goes back to the broker",
+      "seconds": 5.1,
+      "narration": "When a short seller has to buy, a bet against the stock can help push it up.",
+      "start": 54.9
+    }
+  ],
+  "captions": [
+    {
+      "text": "His phone lights up.",
+      "start": 0,
+      "end": 1.1200453514739228
+    },
+    {
+      "text": "Buy the stock back, or put up more cash.",
+      "start": 1.1200453514739228,
+      "end": 3.552018140589569
+    },
+    {
+      "text": "Hours earlier, he borrowed one share",
+      "start": 4.3,
+      "end": 6.329924858832422
+    },
+    {
+      "text": "from a broker.",
+      "start": 6.329924858832422,
+      "end": 7.207981859410431
+    },
+    {
+      "text": "He has to give it back.",
+      "start": 7.207981859410431,
+      "end": 8.38607709750567
+    },
+    {
+      "text": "He sells it for twenty dollars.",
+      "start": 10,
+      "end": 11.619274376417234
+    },
+    {
+      "text": "The plan is to buy another share for",
+      "start": 11.619274376417234,
+      "end": 13.531879926573804
+    },
+    {
+      "text": "less.",
+      "start": 13.531879926573804,
+      "end": 13.90031746031746
+    },
+    {
+      "text": "But buyers pile in.",
+      "start": 15.4,
+      "end": 16.72902494331066
+    },
+    {
+      "text": "Twenty becomes thirty-five.",
+      "start": 16.72902494331066,
+      "end": 18.348299319727893
+    },
+    {
+      "text": "Then fifty.",
+      "start": 18.348299319727893,
+      "end": 19.0968253968254
+    },
+    {
+      "text": "To replace that share at fifty, his",
+      "start": 20.1,
+      "end": 22.09575510204082
+    },
+    {
+      "text": "twenty dollars is thirty short, before",
+      "start": 22.09575510204082,
+      "end": 24.257823129251705
+    },
+    {
+      "text": "fees.",
+      "start": 24.257823129251705,
+      "end": 24.64498866213152
+    },
+    {
+      "text": "The broker wants more collateral.",
+      "start": 25.4,
+      "end": 27.07732426303855
+    },
+    {
+      "text": "He can put up the cash, or close the",
+      "start": 27.07732426303855,
+      "end": 28.91548067288931
+    },
+    {
+      "text": "trade.",
+      "start": 28.91548067288931,
+      "end": 29.323537414965983
+    },
+    {
+      "text": "He can't post the cash.",
+      "start": 31.1,
+      "end": 32.45224489795918
+    },
+    {
+      "text": "So he runs to buy a share.",
+      "start": 32.45224489795918,
+      "end": 34.025079365079364
+    },
+    {
+      "text": "He buys it back at fifty.",
+      "start": 35.6,
+      "end": 37.021904761904764
+    },
+    {
+      "text": "Other short sellers are trying to do the",
+      "start": 37.021904761904764,
+      "end": 38.87101691958835
+    },
+    {
+      "text": "same thing.",
+      "start": 38.87101691958835,
+      "end": 39.47709750566894
+    },
+    {
+      "text": "Their buy orders can lift the price",
+      "start": 40.7,
+      "end": 42.361885325558795
+    },
+    {
+      "text": "again.",
+      "start": 42.361885325558795,
+      "end": 42.74884353741497
+    },
+    {
+      "text": "That puts more shorts under pressure,",
+      "start": 42.74884353741497,
+      "end": 44.60459705575352
+    },
+    {
+      "text": "and some of them buy too.",
+      "start": 44.60459705575352,
+      "end": 45.935464852607716
+    },
+    {
+      "text": "In January twenty twenty-one, GameStop",
+      "start": 47.8,
+      "end": 49.820136054421766
+    },
+    {
+      "text": "short interest topped its public float.",
+      "start": 49.820136054421766,
+      "end": 51.95024943310657
+    },
+    {
+      "text": "The report found broader buying",
+      "start": 51.95024943310657,
+      "end": 53.47204953776382
+    },
+    {
+      "text": "sustained the rally.",
+      "start": 53.47204953776382,
+      "end": 54.533151927437636
+    },
+    {
+      "text": "When a short seller has to buy, a bet",
+      "start": 54.9,
+      "end": 56.641496598639456
+    },
+    {
+      "text": "against the stock can help push it up.",
+      "start": 56.641496598639456,
+      "end": 58.49297052154195
+    }
+  ],
+  "audio": "/projects/short-squeeze-film-vertical/mix.mp3"
+}

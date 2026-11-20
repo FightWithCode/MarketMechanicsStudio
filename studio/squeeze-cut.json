@@ -1,0 +1,28 @@
+{
+  "title": "The Anatomy of a Short Squeeze",
+  "aspect": "16:9",
+  "duration": 96,
+  "narrationTempo": 0.9,
+  "summary": "A 96-second animated cut follows a short seller from a share loan to the margin call and buyback that close his trade.",
+  "sources": [
+    "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-51",
+    "https://www.finra.org/rules-guidance/rulebooks/finra-rules/4210",
+    "https://www.sec.gov/files/staff-report-equity-options-market-struction-conditions-early-2021.pdf#page=22",
+    "https://www.sec.gov/files/staff-report-equity-options-market-struction-conditions-early-2021.pdf#page=27"
+  ],
+  "score": "assets/squeeze-cut-score.mp3",
+  "scenes": [
+    {"kind":"film","shot":"squeeze-cut/opening","label":"The call","headline":"At midnight, the phone lights up","seconds":6,"narration":"At midnight, his broker calls. A trade meant to make money is eating through his cash."},
+    {"kind":"film","shot":"squeeze-cut/borrow","label":"The loan","headline":"Borrow one share","seconds":8,"narration":"Earlier that day, he borrowed one share. He can sell it right away. But he still owes the lender a share."},
+    {"kind":"film","shot":"squeeze-cut/sell","label":"The sale","headline":"Sell it for $20","seconds":8,"narration":"He sells it for twenty dollars. If the stock falls, he can buy it back for less and keep the difference."},
+    {"kind":"film","shot":"squeeze-cut/price","label":"The price rises","headline":"Buyers bid it up to $50","seconds":7,"narration":"Instead, buyers pile in. The stock was twenty dollars. Now someone is willing to pay fifty."},
+    {"kind":"film","shot":"squeeze-cut/loss","label":"The loss","headline":"Selling at $20 and buying at $50","seconds":9,"narration":"He sold for twenty. Buying back one share now costs fifty. That's a thirty-dollar loss if he closes here, before fees."},
+    {"kind":"film","shot":"squeeze-cut/cushion","label":"The cash cushion","headline":"The buyback would use all $50","seconds":12,"narration":"The broker holds his twenty-dollar sale, plus thirty of his own cash. That's fifty dollars in the account. Buying back the share would use all fifty. His cushion is gone."},
+    {"kind":"film","shot":"squeeze-cut/margin","label":"The margin call","headline":"Add $15 or close the trade","seconds":11,"narration":"Here, the broker wants a cushion of thirty percent. At fifty dollars a share, that's fifteen dollars. To stay short, he has to add fifteen. Or he can close the trade."},
+    {"kind":"film","shot":"squeeze-cut/street","label":"Back to the exchange","headline":"He heads back to buy a share","seconds":6,"narration":"He can't add the cash. So he heads back to the exchange."},
+    {"kind":"film","shot":"squeeze-cut/buyback","label":"The buyback","headline":"His $50 order is filled","seconds":7,"narration":"He buys one share for fifty. Across the room, other short sellers start buying too."},
+    {"kind":"film","shot":"squeeze-cut/cascade","label":"The feedback loop","headline":"More buying pushes up the price","seconds":8,"narration":"Their orders can push the price up again. That puts more shorts under pressure to buy. That's the short squeeze."},
+    {"kind":"film","shot":"squeeze-cut/evidence","label":"GameStop","headline":"GameStop's short interest in 2021","seconds":8,"narration":"GameStop's short interest topped its public float in twenty twenty-one. The report found that broader buying sustained the rally."},
+    {"kind":"film","shot":"squeeze-cut/return","label":"The return","headline":"The trader returns the share","seconds":6,"narration":"He returns the share. His short is closed, and the loss is real."}
+  ]
+}
